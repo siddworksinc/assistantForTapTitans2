@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.siddworks.android.taptitanssavefileviewer.DashboardActivity">
+    <item
+        android:id="@+id/action_contact"
+        android:orderInCategory="112"
+        android:title="@string/action_contact"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_select_save_file"
+        android:orderInCategory="116"
+        android:title="@string/select_save_file"
+        app:showAsAction="never" />
+</menu>

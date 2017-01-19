@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        >
+
+        <LinearLayout
+            android:background="@color/white"
+            android:gravity="center_vertical|center_horizontal"
+            android:id="@+id/container"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="4dp"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/wc_title"
+                    android:paddingTop="36dp"
+                    android:text="Assistant For Tap Titans"
+                    android:textColor="@color/white"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:id="@+id/wc_version_info"
+                    android:paddingBottom="24dp"
+                    android:textSize="14sp"
+                    android:textColor="@color/transparent_white_more"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    />
+
+                <pl.droidsonroids.gif.GifImageView
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:layout_margin="24dp"
+                    android:src="@drawable/hero"
+                    />
+
+            </LinearLayout>
+
+            <FrameLayout
+                android:visibility="gone"
+                android:id="@+id/wc_root_sequencers"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/welcome_row_height"
+                android:layout_marginBottom="@dimen/wc_row_padding"
+                android:background="?android:attr/selectableItemBackground">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/dr_wc_sequencer"
+                    android:adjustViewBounds="false"
+                    android:cropToPadding="false"
+                    android:scaleType="centerCrop" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="@color/brownTransparent"
+                    android:gravity="center"
+                    android:weightSum="1">
+
+                    <ImageView
+                        android:layout_marginRight="24dp"
+                        android:layout_marginLeft="24dp"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        app:srcCompat="@drawable/ic_wc_sequencer"/>
+
+                    <TextView
+                        android:text="Sequencers &amp; Calculators"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/wc_root_save_file"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/welcome_row_height"
+                android:layout_marginBottom="@dimen/wc_row_padding">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/dr_wc_save_file_info"
+                    android:adjustViewBounds="false"
+                    android:cropToPadding="false"
+                    android:scaleType="centerCrop" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="@color/orangeHeaderTransparent"
+                    android:gravity="center"
+                    android:weightSum="1">
+
+                    <ImageView
+                        android:layout_marginRight="24dp"
+                        android:layout_marginLeft="24dp"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        app:srcCompat="@drawable/ic_wc_save_file"/>
+
+                    <TextView
+                        android:text="Save File Info"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:visibility="gone"
+                android:id="@+id/wc_root_contribute"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/welcome_row_height"
+                android:layout_marginBottom="@dimen/wc_row_padding">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/dr_wc_contribute"
+                    android:adjustViewBounds="false"
+                    android:cropToPadding="false"
+                    android:scaleType="centerCrop" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="@color/violetHeaderTransparent"
+                    android:gravity="center"
+                    android:weightSum="1">
+
+                    <ImageView
+                        android:layout_marginRight="24dp"
+                        android:layout_marginLeft="24dp"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        app:srcCompat="@drawable/ic_wc_contribute"/>
+
+                    <TextView
+                        android:text="Contribute"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/wc_root_settings"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/welcome_row_height"
+                android:layout_marginBottom="@dimen/wc_row_padding">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/dr_wc_settings"
+                    android:adjustViewBounds="false"
+                    android:cropToPadding="false"
+                    android:scaleType="centerCrop" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="@color/greenHeaderTransparent"
+                    android:gravity="center"
+                    android:weightSum="1">
+
+                    <ImageView
+                        android:layout_marginRight="24dp"
+                        android:layout_marginLeft="24dp"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        app:srcCompat="@drawable/ic_wc_settings"/>
+
+                    <TextView
+                        android:text="Settings"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+            </FrameLayout>
+
+            <!-- About -->
+            <FrameLayout
+                android:id="@+id/wc_root_about"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/welcome_row_height"
+                android:layout_marginBottom="@dimen/wc_row_padding">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/dr_wc_about"
+                    android:adjustViewBounds="false"
+                    android:cropToPadding="false"
+                    android:scaleType="centerCrop" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="@color/pinkTransparent"
+                    android:gravity="center"
+                    android:weightSum="1">
+
+                    <ImageView
+                        android:layout_marginRight="24dp"
+                        android:layout_marginLeft="24dp"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        app:srcCompat="@drawable/ic_settings_about"/>
+
+                    <TextView
+                        android:text="About"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+            </FrameLayout>
+
+            <!-- Shortcuts -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/welcome_row_height"
+                android:orientation="horizontal"
+                android:layout_marginBottom="@dimen/wc_row_padding"
+                >
+
+                <LinearLayout
+                    android:id="@+id/wc_shortcuts_game"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="@color/bluebgTransparent"
+                    android:gravity="center"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:layout_marginRight="24dp"
+                        android:layout_marginLeft="24dp"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        app:srcCompat="@drawable/wc_game"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginLeft="@dimen/wc_row_padding"
+                    android:layout_marginRight="@dimen/wc_row_padding"
+                    android:id="@+id/wc_shortcuts_reddit"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="@color/bluebgTransparent"
+                    android:gravity="center"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:layout_marginRight="24dp"
+                        android:layout_marginLeft="24dp"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:padding="4dp"
+                        app:srcCompat="@drawable/ic_red"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/wc_shortcuts_download"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="@color/bluebgTransparent"
+                    android:gravity="center"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:layout_marginRight="24dp"
+                        android:layout_marginLeft="24dp"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        app:srcCompat="@drawable/wc_download"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="48dp" />
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,3603 @@
+{
+  "AccountModel": {
+    "playerID": {
+      "$content": "7e8ee20f-a736-473c-a1c4-fe49cfc100a9",
+      "$type": "System.String"
+    },
+    "displayName": {
+      "$content": "Sword Master",
+      "$type": "System.String"
+    },
+    "email": null,
+    "authToken": {
+      "$content": "1116a721-7e8f-47e0-831f-acb17637e5c7",
+      "$type": "System.String"
+    },
+    "countryCode": {
+      "$content": "IN",
+      "$type": "System.String"
+    },
+    "accountStatus": {
+      "$content": "None",
+      "$type": "AccountStatus"
+    },
+    "accountState": {
+      "$content": 0,
+      "$type": "System.Int32"
+    },
+    "registeredTime": {
+      "$content": "2016-12-14T08:25:59.0000000",
+      "$type": "System.DateTime"
+    },
+    "supportCode": {
+      "$content": "4556pg",
+      "$type": "System.String"
+    },
+    "facebookID": null,
+    "isDev": {
+      "$content": false,
+      "$type": "System.Boolean"
+    },
+    "promptTimes": {
+      "$content": 3,
+      "$type": "System.Int32"
+    },
+    "promptPrestige": {
+      "$content": 2,
+      "$type": "System.Int32"
+    },
+    "installedVersion": {
+      "$content": "1.0.5",
+      "$type": "System.String"
+    },
+    "$type": "SaveDict`1[[ISavableGlobal, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+  },
+  "AchievementModel": {
+    "MonsterKilltier": {
+      "$content": 3,
+      "$type": "System.Int32"
+    },
+    "MonsterKillprogress": {
+      "$content": 11242,
+      "$type": "System.Double"
+    },
+    "MonsterKillstatus": {
+      "$content": "InProgress",
+      "$type": "AchievementStatus"
+    },
+    "CollectGoldtier": {
+      "$content": 1,
+      "$type": "System.Int32"
+    },
+    "CollectGoldprogress": {
+      "$content": 9.18815652998646e+22,
+      "$type": "System.Double"
+    },
+    "CollectGoldstatus": {
+      "$content": "InProgress",
+      "$type": "AchievementStatus"
+    },
+    "UnlockHeroestier": {
+      "$content": 3,
+      "$type": "System.Int32"
+    },
+    "UnlockHeroesprogress": {
+      "$content": 20,
+      "$type": "System.Double"
+    },
+    "UnlockHeroesstatus": {
+      "$content": "InProgress",
+      "$type": "AchievementStatus"
+    },
+    "HelperDPStier": {
+      "$content": 2,
+      "$type": "System.Int32"
+    },
+    "HelperDPSprogress": {
+      "$content": 22265264030421700000,
+      "$type": "System.Double"
+    },
+    "HelperDPSstatus": {
+      "$content": "InProgress",
+      "$type": "AchievementStatus"
+    },
+    "BossKilltier": {
+      "$content": 2,
+      "$type": "System.Int32"
+    },
+    "BossKillprogress": {
+      "$content": 965,
+      "$type": "System.Double"
+    },
+    "BossKillstatus": {
+      "$content": "InProgress",
+      "$type": "AchievementStatus"
+    },
+    "TapCounttier": {
+      "$content": 3,
+      "$type": "System.Int32"
+    },
+    "TapCountprogress": {
+      "$content": 301909,
+      "$type": "System.Double"
+    },
+    "TapCountstatus": {
+      "$content": "InProgress",
+      "$type": "AchievementStatus"
+    },
+    "HelperLevelstier": {
+      "$content": 4,
+      "$type": "System.Int32"
+    },
+    "HelperLevelsprogress": {
+      "$content": 30997,
+      "$type": "System.Double"
+    },
+    "HelperLevelsstatus": {
+      "$content": "InProgress",
+      "$type": "AchievementStatus"
+    },
+    "Chestersontier": {
+      "$content": 2,
+      "$type": "System.Int32"
+    },
+    "Chestersonprogress": {
+      "$content": 241,
+      "$type": "System.Double"
+    },
+    "Chestersonstatus": {
+      "$content": "InProgress",
+      "$type": "AchievementStatus"
+    },
+    "FairyCounttier": {
+      "$content": 2,
+      "$type": "System.Int32"
+    },
+    "FairyCountprogress": {
+      "$content": 324,
+      "$type": "System.Double"
+    },
+    "FairyCountstatus": {
+      "$content": "InProgress",
+      "$type": "AchievementStatus"
+    },
+    "JumpAttackCounttier": {
+      "$content": 1,
+      "$type": "System.Int32"
+    },
+    "JumpAttackCountprogress": {
+      "$content": 57,
+      "$type": "System.Double"
+    },
+    "JumpAttackCountstatus": {
+      "$content": "InProgress",
+      "$type": "AchievementStatus"
+    },
+    "ReachStagetier": {
+      "$content": 2,
+      "$type": "System.Int32"
+    },
+    "ReachStageprogress": {
+      "$content": 174,
+      "$type": "System.Double"
+    },
+    "ReachStagestatus": {
+      "$content": "InProgress",
+      "$type": "AchievementStatus"
+    },
+    "CriticalCounttier": {
+      "$content": 2,
+      "$type": "System.Int32"
+    },
+    "CriticalCountprogress": {
+      "$content": 2123,
+      "$type": "System.Double"
+    },
+    "CriticalCountstatus": {
+      "$content": "InProgress",
+      "$type": "AchievementStatus"
+    },
+    "ParticipatedTournamenttier": {
+      "$content": 1,
+      "$type": "System.Int32"
+    },
+    "ParticipatedTournamentprogress": {
+      "$content": 2,
+      "$type": "System.Double"
+    },
+    "ParticipatedTournamentstatus": {
+      "$content": "InProgress",
+      "$type": "AchievementStatus"
+    },
+    "PetLeveltier": {
+      "$content": 2,
+      "$type": "System.Int32"
+    },
+    "PetLevelprogress": {
+      "$content": 95,
+      "$type": "System.Double"
+    },
+    "PetLevelstatus": {
+      "$content": "InProgress",
+      "$type": "AchievementStatus"
+    },
+    "EquipmentCollectedtier": {
+      "$content": 1,
+      "$type": "System.Int32"
+    },
+    "EquipmentCollectedprogress": {
+      "$content": 11,
+      "$type": "System.Double"
+    },
+    "EquipmentCollectedstatus": {
+      "$content": "InProgress",
+      "$type": "AchievementStatus"
+    },
+    "TotalSkillPointstier": {
+      "$content": 1,
+      "$type": "System.Int32"
+    },
+    "TotalSkillPointsprogress": {
+      "$content": 4,
+      "$type": "System.Double"
+    },
+    "TotalSkillPointsstatus": {
+      "$content": "InProgress",
+      "$type": "AchievementStatus"
+    },
+    "Mannytier": {
+      "$content": 0,
+      "$type": "System.Int32"
+    },
+    "Mannyprogress": {
+      "$content": 0,
+      "$type": "System.Double"
+    },
+    "Mannystatus": {
+      "$content": "InProgress",
+      "$type": "AchievementStatus"
+    },
+    "PrestigeCounttier": {
+      "$content": 2,
+      "$type": "System.Int32"
+    },
+    "PrestigeCountprogress": {
+      "$content": 6,
+      "$type": "System.Double"
+    },
+    "PrestigeCountstatus": {
+      "$content": "InProgress",
+      "$type": "AchievementStatus"
+    },
+    "CollectRelicstier": {
+      "$content": 1,
+      "$type": "System.Int32"
+    },
+    "CollectRelicsprogress": {
+      "$content": 77,
+      "$type": "System.Double"
+    },
+    "CollectRelicsstatus": {
+      "$content": "InProgress",
+      "$type": "AchievementStatus"
+    },
+    "OwnArtifactstier": {
+      "$content": 1,
+      "$type": "System.Int32"
+    },
+    "OwnArtifactsprogress": {
+      "$content": 4,
+      "$type": "System.Double"
+    },
+    "OwnArtifactsstatus": {
+      "$content": "InProgress",
+      "$type": "AchievementStatus"
+    },
+    "Weaponstier": {
+      "$content": 0,
+      "$type": "System.Int32"
+    },
+    "Weaponsprogress": {
+      "$content": 1,
+      "$type": "System.Double"
+    },
+    "Weaponsstatus": {
+      "$content": "InProgress",
+      "$type": "AchievementStatus"
+    },
+    "Perktier": {
+      "$content": 0,
+      "$type": "System.Int32"
+    },
+    "Perkprogress": {
+      "$content": 0,
+      "$type": "System.Double"
+    },
+    "Perkstatus": {
+      "$content": "InProgress",
+      "$type": "AchievementStatus"
+    },
+    "doomCount": {
+      "$content": 0,
+      "$type": "System.Int32"
+    },
+    "perkCountRain": {
+      "$content": 0,
+      "$type": "System.Int32"
+    },
+    "perkCountMana": {
+      "$content": 0,
+      "$type": "System.Int32"
+    },
+    "twitterFollow": {
+      "$content": false,
+      "$type": "System.Boolean"
+    },
+    "facebookLike": {
+      "$content": false,
+      "$type": "System.Boolean"
+    },
+    "$type": "SaveDict`1[[ISavableGlobal, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+  },
+  "ActiveSkillModel": {
+    "allActiveSkills": {
+      "BurstDamage": {
+        "level": {
+          "$content": 3,
+          "$type": "System.Int32"
+        },
+        "activeTime": {
+          "$content": 0,
+          "$type": "System.Single"
+        },
+        "cooldownTime": {
+          "$content": 0,
+          "$type": "System.Single"
+        }
+      },
+      "CritBoost": {
+        "level": {
+          "$content": 3,
+          "$type": "System.Int32"
+        },
+        "activeTime": {
+          "$content": 0,
+          "$type": "System.Single"
+        },
+        "cooldownTime": {
+          "$content": 0,
+          "$type": "System.Single"
+        }
+      },
+      "HandOfMidas": {
+        "level": {
+          "$content": 2,
+          "$type": "System.Int32"
+        },
+        "activeTime": {
+          "$content": 0,
+          "$type": "System.Single"
+        },
+        "cooldownTime": {
+          "$content": 0,
+          "$type": "System.Single"
+        }
+      },
+      "TapBoost": {
+        "level": {
+          "$content": 2,
+          "$type": "System.Int32"
+        },
+        "activeTime": {
+          "$content": 0,
+          "$type": "System.Single"
+        },
+        "cooldownTime": {
+          "$content": 0,
+          "$type": "System.Single"
+        }
+      },
+      "HelperBoost": {
+        "level": {
+          "$content": 1,
+          "$type": "System.Int32"
+        },
+        "activeTime": {
+          "$content": 0,
+          "$type": "System.Single"
+        },
+        "cooldownTime": {
+          "$content": 0,
+          "$type": "System.Single"
+        }
+      },
+      "ShadowClone": {
+        "level": {
+          "$content": 0,
+          "$type": "System.Int32"
+        },
+        "activeTime": {
+          "$content": 0,
+          "$type": "System.Single"
+        },
+        "cooldownTime": {
+          "$content": 0,
+          "$type": "System.Single"
+        }
+      },
+      "SeventhSkill": {
+        "level": {
+          "$content": 0,
+          "$type": "System.Int32"
+        },
+        "activeTime": {
+          "$content": 0,
+          "$type": "System.Single"
+        },
+        "cooldownTime": {
+          "$content": 0,
+          "$type": "System.Single"
+        }
+      },
+      "PowerOfSwipe": {
+        "level": {
+          "$content": 0,
+          "$type": "System.Int32"
+        },
+        "activeTime": {
+          "$content": 0,
+          "$type": "System.Single"
+        },
+        "cooldownTime": {
+          "$content": 0,
+          "$type": "System.Single"
+        }
+      },
+      "DoubleDamage": {
+        "level": {
+          "$content": 0,
+          "$type": "System.Int32"
+        },
+        "activeTime": {
+          "$content": 0,
+          "$type": "System.Single"
+        },
+        "cooldownTime": {
+          "$content": 0,
+          "$type": "System.Single"
+        }
+      },
+      "$type": "System.Collections.Generic.Dictionary`2[[ActiveSkillID, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Collections.Generic.Dictionary`2[[System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"
+    },
+    "$type": "SaveDict`1[[ISavableGlobal, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+  },
+  "AnalyticsModel": {
+    "canDoSwr": {
+      "$content": false,
+      "$type": "System.Boolean"
+    },
+    "$type": "SaveDict`1[[ISavableGlobal, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+  },
+  "ArtifactModel": {
+    "allArtifactInfo": {
+      "Artifact1": {
+        "level": {
+          "$content": 0,
+          "$type": "System.Int32"
+        },
+        "relics_spent": {
+          "$content": 0,
+          "$type": "System.Double"
+        }
+      },
+      "Artifact2": {
+        "level": {
+          "$content": 0,
+          "$type": "System.Int32"
+        },
+        "relics_spent": {
+          "$content": 0,
+          "$type": "System.Double"
+        }
+      },
+      "Artifact4": {
+        "level": {
+          "$content": 0,
+          "$type": "System.Int32"
+        },
+        "relics_spent": {
+          "$content": 0,
+          "$type": "System.Double"
+        }
+      },
+      "Artifact5": {
+        "level": {
+          "$content": 0,
+          "$type": "System.Int32"
+        },
+        "relics_spent": {
+          "$content": 0,
+          "$type": "System.Double"
+        }
+      },
+      "Artifact6": {
+        "level": {
+          "$content": 0,
+          "$type": "System.Int32"
+        },
+        "relics_spent": {
+          "$content": 0,
+          "$type": "System.Double"
+        }
+      },
+      "Artifact7": {
+        "level": {
+          "$content": 0,
+          "$type": "System.Int32"
+        },
+        "relics_spent": {
+          "$content": 0,
+          "$type": "System.Double"
+        }
+      },
+      "Artifact9": {
+        "level": {
+          "$content": 0,
+          "$type": "System.Int32"
+        },
+        "relics_spent": {
+          "$content": 0,
+          "$type": "System.Double"
+        }
+      },
+      "Artifact10": {
+        "level": {
+          "$content": 0,
+          "$type": "System.Int32"
+        },
+        "relics_spent": {
+          "$content": 0,
+          "$type": "System.Double"
+        }
+      },
+      "Artifact11": {
+        "level": {
+          "$content": 1,
+          "$type": "System.Int32"
+        },
+        "relics_spent": {
+          "$content": 0,
+          "$type": "System.Double"
+        }
+      },
+      "Artifact12": {
+        "level": {
+          "$content": 0,
+          "$type": "System.Int32"
+        },
+        "relics_spent": {
+          "$content": 0,
+          "$type": "System.Double"
+        }
+      },
+      "Artifact13": {
+        "level": {
+          "$content": 0,
+          "$type": "System.Int32"
+        },
+        "relics_spent": {
+          "$content": 0,
+          "$type": "System.Double"
+        }
+      },
+      "Artifact14": {
+        "level": {
+          "$content": 0,
+          "$type": "System.Int32"
+        },
+        "relics_spent": {
+          "$content": 0,
+          "$type": "System.Double"
+        }
+      },
+      "Artifact15": {
+        "level": {
+          "$content": 0,
+          "$type": "System.Int32"
+        },
+        "relics_spent": {
+          "$content": 0,
+          "$type": "System.Double"
+        }
+      },
+      "Artifact16": {
+        "level": {
+          "$content": 0,
+          "$type": "System.Int32"
+        },
+        "relics_spent": {
+          "$content": 0,
+          "$type": "System.Double"
+        }
+      },
+      "Artifact18": {
+        "level": {
+          "$content": 1,
+          "$type": "System.Int32"
+        },
+        "relics_spent": {
+          "$content": 0,
+          "$type": "System.Double"
+        }
+      },
+      "Artifact19": {
+        "level": {
+          "$content": 0,
+          "$type": "System.Int32"
+        },
+        "relics_spent": {
+          "$content": 0,
+          "$type": "System.Double"
+        }
+      },
+      "Artifact20": {
+        "level": {
+          "$content": 0,
+          "$type": "System.Int32"
+        },
+        "relics_spent": {
+          "$content": 0,
+          "$type": "System.Double"
+        }
+      },
+      "Artifact21": {
+        "level": {
+          "$content": 0,
+          "$type": "System.Int32"
+        },
+        "relics_spent": {
+          "$content": 0,
+          "$type": "System.Double"
+        }
+      },
+      "Artifact22": {
+        "level": {
+          "$content": 0,
+          "$type": "System.Int32"
+        },
+        "relics_spent": {
+          "$content": 0,
+          "$type": "System.Double"
+        }
+      },
+      "Artifact24": {
+        "level": {
+          "$content": 1,
+          "$type": "System.Int32"
+        },
+        "relics_spent": {
+          "$content": 0,
+          "$type": "System.Double"
+        }
+      },
+      "Artifact17": {
+        "level": {
+          "$content": 0,
+          "$type": "System.Int32"
+        },
+        "relics_spent": {
+          "$content": 0,
+          "$type": "System.Double"
+        }
+      },
+      "Artifact23": {
+        "level": {
+          "$content": 0,
+          "$type": "System.Int32"
+        },
+        "relics_spent": {
+          "$content": 0,
+          "$type": "System.Double"
+        }
+      },
+      "Artifact25": {
+        "level": {
+          "$content": 0,
+          "$type": "System.Int32"
+        },
+        "relics_spent": {
+          "$content": 0,
+          "$type": "System.Double"
+        }
+      },
+      "Artifact28": {
+        "level": {
+          "$content": 0,
+          "$type": "System.Int32"
+        },
+        "relics_spent": {
+          "$content": 0,
+          "$type": "System.Double"
+        }
+      },
+      "Artifact26": {
+        "level": {
+          "$content": 0,
+          "$type": "System.Int32"
+        },
+        "relics_spent": {
+          "$content": 0,
+          "$type": "System.Double"
+        }
+      },
+      "Artifact29": {
+        "level": {
+          "$content": 0,
+          "$type": "System.Int32"
+        },
+        "relics_spent": {
+          "$content": 0,
+          "$type": "System.Double"
+        }
+      },
+      "Artifact31": {
+        "level": {
+          "$content": 0,
+          "$type": "System.Int32"
+        },
+        "relics_spent": {
+          "$content": 0,
+          "$type": "System.Double"
+        }
+      },
+      "Artifact32": {
+        "level": {
+          "$content": 0,
+          "$type": "System.Int32"
+        },
+        "relics_spent": {
+          "$content": 0,
+          "$type": "System.Double"
+        }
+      },
+      "Artifact33": {
+        "level": {
+          "$content": 0,
+          "$type": "System.Int32"
+        },
+        "relics_spent": {
+          "$content": 0,
+          "$type": "System.Double"
+        }
+      },
+      "Artifact34": {
+        "level": {
+          "$content": 0,
+          "$type": "System.Int32"
+        },
+        "relics_spent": {
+          "$content": 0,
+          "$type": "System.Double"
+        }
+      },
+      "Artifact35": {
+        "level": {
+          "$content": 0,
+          "$type": "System.Int32"
+        },
+        "relics_spent": {
+          "$content": 0,
+          "$type": "System.Double"
+        }
+      },
+      "Artifact38": {
+        "level": {
+          "$content": 0,
+          "$type": "System.Int32"
+        },
+        "relics_spent": {
+          "$content": 0,
+          "$type": "System.Double"
+        }
+      },
+      "Artifact36": {
+        "level": {
+          "$content": 0,
+          "$type": "System.Int32"
+        },
+        "relics_spent": {
+          "$content": 0,
+          "$type": "System.Double"
+        }
+      },
+      "Artifact3": {
+        "level": {
+          "$content": 1,
+          "$type": "System.Int32"
+        },
+        "relics_spent": {
+          "$content": 0,
+          "$type": "System.Double"
+        }
+      },
+      "Artifact8": {
+        "level": {
+          "$content": 0,
+          "$type": "System.Int32"
+        },
+        "relics_spent": {
+          "$content": 0,
+          "$type": "System.Double"
+        }
+      },
+      "Artifact27": {
+        "level": {
+          "$content": 0,
+          "$type": "System.Int32"
+        },
+        "relics_spent": {
+          "$content": 0,
+          "$type": "System.Double"
+        }
+      },
+      "Artifact37": {
+        "level": {
+          "$content": 0,
+          "$type": "System.Int32"
+        },
+        "relics_spent": {
+          "$content": 0,
+          "$type": "System.Double"
+        }
+      },
+      "Artifact39": {
+        "level": {
+          "$content": 0,
+          "$type": "System.Int32"
+        },
+        "relics_spent": {
+          "$content": 0,
+          "$type": "System.Double"
+        }
+      },
+      "$type": "System.Collections.Generic.Dictionary`2[[ArtifactID, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Collections.Generic.Dictionary`2[[System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"
+    },
+    "$type": "SaveDict`1[[ISavableGlobal, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+  },
+  "AvatarModel": {
+    "currentAvatar": {
+      "$content": "Avatar6",
+      "$type": "AvatarID"
+    },
+    "allAvatarIsUnlocked": {
+      "Avatar1": true,
+      "Avatar2": true,
+      "Avatar3": true,
+      "Avatar4": true,
+      "Avatar5": true,
+      "Avatar6": true,
+      "Avatar7": false,
+      "Avatar8": false,
+      "Avatar9": false,
+      "Avatar10": false,
+      "Avatar11": false,
+      "Avatar12": false,
+      "Avatar13": false,
+      "Avatar14": false,
+      "Avatar15": false,
+      "Avatar16": false,
+      "$type": "System.Collections.Generic.Dictionary`2[[AvatarID, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"
+    },
+    "allAvatarIsNew": {
+      "Avatar1": false,
+      "Avatar2": false,
+      "Avatar3": false,
+      "Avatar4": false,
+      "Avatar5": false,
+      "Avatar6": false,
+      "Avatar7": false,
+      "Avatar8": false,
+      "Avatar9": false,
+      "Avatar10": false,
+      "Avatar11": false,
+      "Avatar12": false,
+      "Avatar13": false,
+      "Avatar14": false,
+      "Avatar15": false,
+      "Avatar16": false,
+      "$type": "System.Collections.Generic.Dictionary`2[[AvatarID, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"
+    },
+    "$type": "SaveDict`1[[ISavableGlobal, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+  },
+  "BackgroundModel": {
+    "platformUnlockedDict": {
+      "BottomLeft": true,
+      "TopLeft": false,
+      "BottomRight": true,
+      "MiddleBottomRight": true,
+      "MiddleTopRight": false,
+      "TopRight": false,
+      "All": false,
+      "None": false,
+      "$type": "System.Collections.Generic.Dictionary`2[[PlatformPosition, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"
+    },
+    "$type": "SaveDict`1[[ISavableGlobal, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+  },
+  "ClanModel": {
+    "clan": {
+      "clanID": "vg63p",
+      "clanIconID": "ClanIcon27",
+      "name": "Animelover",
+      "description": "I LOVE ANIME",
+      "score": 5,
+      "rank": 0,
+      "leaderName": "Momonga",
+      "countryCode": null,
+      "isPrivateClan": false,
+      "passCode": "",
+      "stageRequirement": 0,
+      "dungeonTotalContributions": 0,
+      "dungeonRequiredAmount": 0,
+      "dungeonNextBonus": 0,
+      "dungeonBonus": 0,
+      "lastInfoUpdatedTimestamp": "0001-01-01T00:00:00.0000000",
+      "lastMemberListUpdatedTimestamp": "0001-01-01T00:00:00.0000000",
+      "$type": "Clan"
+    },
+    "clanMembers": {
+      "ngxy4m": {
+        "playerID": "ngxy4m",
+        "playerName": "serii",
+        "highestPetID": "Pet11",
+        "currentStage": 0,
+        "stageCount": 403,
+        "score": 403,
+        "totalQuestCount": 12,
+        "weeklyQuestCount": 4,
+        "rank": 1,
+        "artifactCount": 6,
+        "clanName": "Animelover",
+        "clanIconID": "ClanIcon27",
+        "clanRole": "Member",
+        "avatarID": "Avatar1",
+        "totalTournamentsCount": 1,
+        "highestTournamentRank": 0,
+        "countryCode": "AU",
+        "lastInfoUpdatedTimestamp": "0001-01-01T00:00:00.0000000",
+        "equipment": {
+          "Aura": "Aura_Leaves",
+          "Hat": "Hat_HelmWhite",
+          "Slash": "Slash_FireOrange",
+          "Suit": "Suit_Wizard",
+          "Weapon": "Weapon_BattleAxe"
+        }
+      },
+      "7p2gd4": {
+        "playerID": "7p2gd4",
+        "playerName": "Mysterious",
+        "highestPetID": "Pet12",
+        "currentStage": 0,
+        "stageCount": 340,
+        "score": 340,
+        "totalQuestCount": 106,
+        "weeklyQuestCount": 9,
+        "rank": 2,
+        "artifactCount": 9,
+        "clanName": "Animelover",
+        "clanIconID": "ClanIcon27",
+        "clanRole": "Member",
+        "avatarID": "Avatar3",
+        "totalTournamentsCount": 3,
+        "highestTournamentRank": 0,
+        "countryCode": "UX",
+        "lastInfoUpdatedTimestamp": "0001-01-01T00:00:00.0000000",
+        "equipment": {
+          "Aura": "Aura_Colors",
+          "Hat": "Hat_Ice",
+          "Slash": "Slash_EmbersBlue",
+          "Suit": "Suit_Wizard",
+          "Weapon": "Weapon_ZigZag"
+        }
+      },
+      "qrqmpg": {
+        "playerID": "qrqmpg",
+        "playerName": "Momonga",
+        "highestPetID": "Pet6",
+        "currentStage": 0,
+        "stageCount": 309,
+        "score": 309,
+        "totalQuestCount": 0,
+        "weeklyQuestCount": 0,
+        "rank": 3,
+        "artifactCount": 3,
+        "clanName": "Animelover",
+        "clanIconID": "ClanIcon27",
+        "clanRole": "Leader",
+        "avatarID": "Avatar5",
+        "totalTournamentsCount": 0,
+        "highestTournamentRank": 0,
+        "countryCode": "TH",
+        "lastInfoUpdatedTimestamp": "0001-01-01T00:00:00.0000000",
+        "equipment": {
+          "Aura": "Aura_Bugs",
+          "Hat": "Hat_Wizard",
+          "Slash": "SlashDefault",
+          "Suit": "Suit_Wizard",
+          "Weapon": "Weapon_Brute"
+        }
+      },
+      "4gnn4d": {
+        "playerID": "4gnn4d",
+        "playerName": "Jom",
+        "highestPetID": "Pet13",
+        "currentStage": 0,
+        "stageCount": 215,
+        "score": 215,
+        "totalQuestCount": 17,
+        "weeklyQuestCount": 0,
+        "rank": 4,
+        "artifactCount": 7,
+        "clanName": "Animelover",
+        "clanIconID": "ClanIcon27",
+        "clanRole": "Member",
+        "avatarID": "Avatar7",
+        "totalTournamentsCount": 3,
+        "highestTournamentRank": 0,
+        "countryCode": "TH",
+        "lastInfoUpdatedTimestamp": "0001-01-01T00:00:00.0000000",
+        "equipment": {
+          "Aura": "Aura_Bugs",
+          "Hat": "Hat_BatGrey",
+          "Slash": "Slash_FireOrange",
+          "Suit": "Suit_ArmorRoyal",
+          "Weapon": "Weapon_Glaive"
+        }
+      },
+      "mq5y5r": {
+        "playerID": "mq5y5r",
+        "playerName": "\\uc190 \\uc544\\ud30c",
+        "highestPetID": "Pet13",
+        "currentStage": 0,
+        "stageCount": 205,
+        "score": 205,
+        "totalQuestCount": 2,
+        "weeklyQuestCount": 0,
+        "rank": 5,
+        "artifactCount": 6,
+        "clanName": "Animelover",
+        "clanIconID": "ClanIcon27",
+        "clanRole": "Member",
+        "avatarID": "Avatar7",
+        "totalTournamentsCount": 4,
+        "highestTournamentRank": 0,
+        "countryCode": "KR",
+        "lastInfoUpdatedTimestamp": "0001-01-01T00:00:00.0000000",
+        "equipment": {
+          "Aura": "Aura_Water",
+          "Hat": "Hat_Ice",
+          "Slash": "Slash_FireGray",
+          "Suit": "Suit_KungFu",
+          "Weapon": "Weapon_Halberd"
+        }
+      },
+      "4556pg": {
+        "playerID": "4556pg",
+        "playerName": "Sword Master",
+        "highestPetID": "Pet4",
+        "currentStage": 0,
+        "stageCount": 174,
+        "score": 174,
+        "totalQuestCount": 2,
+        "weeklyQuestCount": 0,
+        "rank": 6,
+        "artifactCount": 4,
+        "clanName": "Animelover",
+        "clanIconID": "ClanIcon27",
+        "clanRole": "Member",
+        "avatarID": "Avatar6",
+        "totalTournamentsCount": 2,
+        "highestTournamentRank": 85,
+        "countryCode": "IN",
+        "lastInfoUpdatedTimestamp": "0001-01-01T00:00:00.0000000",
+        "equipment": {
+          "Aura": "Aura_Bugs",
+          "Hat": "Hat_Cap",
+          "Slash": "Slash_Water",
+          "Suit": "Suit_ArmorHighTec",
+          "Weapon": "Weapon_Club"
+        }
+      },
+      "8xkg48": {
+        "playerID": "8xkg48",
+        "playerName": "Taimu",
+        "highestPetID": "Pet11",
+        "currentStage": 0,
+        "stageCount": 170,
+        "score": 170,
+        "totalQuestCount": 32,
+        "weeklyQuestCount": 2,
+        "rank": 7,
+        "artifactCount": 3,
+        "clanName": "Animelover",
+        "clanIconID": "ClanIcon27",
+        "clanRole": "Member",
+        "avatarID": "Avatar6",
+        "totalTournamentsCount": 1,
+        "highestTournamentRank": 0,
+        "countryCode": "US",
+        "lastInfoUpdatedTimestamp": "0001-01-01T00:00:00.0000000",
+        "equipment": {
+          "Aura": "Aura_Colors",
+          "Hat": "Hat_BatGrey",
+          "Slash": "Slash_Lightning",
+          "Suit": "Suit_Casual",
+          "Weapon": "Weapon_Katana"
+        }
+      },
+      "6germd": {
+        "playerID": "6germd",
+        "playerName": "Flashed",
+        "highestPetID": "Pet3",
+        "currentStage": 0,
+        "stageCount": 165,
+        "score": 165,
+        "totalQuestCount": 16,
+        "weeklyQuestCount": 0,
+        "rank": 8,
+        "artifactCount": 6,
+        "clanName": "Animelover",
+        "clanIconID": "ClanIcon27",
+        "clanRole": "Member",
+        "avatarID": "Avatar6",
+        "totalTournamentsCount": 4,
+        "highestTournamentRank": 0,
+        "countryCode": "US",
+        "lastInfoUpdatedTimestamp": "0001-01-01T00:00:00.0000000",
+        "equipment": {
+          "Aura": "Aura_Embers",
+          "Hat": "Hat_Music",
+          "Slash": "SlashDefault",
+          "Suit": "Suit_ArmorIce",
+          "Weapon": "WeaponDefault"
+        }
+      },
+      "p98pdm": {
+        "playerID": "p98pdm",
+        "playerName": "Guny",
+        "highestPetID": "Pet14",
+        "currentStage": 0,
+        "stageCount": 154,
+        "score": 154,
+        "totalQuestCount": 3,
+        "weeklyQuestCount": 0,
+        "rank": 9,
+        "artifactCount": 3,
+        "clanName": "Animelover",
+        "clanIconID": "ClanIcon27",
+        "clanRole": "Member",
+        "avatarID": "Avatar6",
+        "totalTournamentsCount": 2,
+        "highestTournamentRank": 0,
+        "countryCode": "UX",
+        "lastInfoUpdatedTimestamp": "0001-01-01T00:00:00.0000000",
+        "equipment": {
+          "Aura": "Aura_GroundLightning",
+          "Hat": "Hat_Cap",
+          "Slash": "Slash_Rainbow",
+          "Suit": "SuitDefault",
+          "Weapon": "Weapon_Bat"
+        }
+      },
+      "7pb74e": {
+        "playerID": "7pb74e",
+        "playerName": "Sword peet",
+        "highestPetID": "Pet5",
+        "currentStage": 0,
+        "stageCount": 153,
+        "score": 153,
+        "totalQuestCount": 13,
+        "weeklyQuestCount": 1,
+        "rank": 10,
+        "artifactCount": 4,
+        "clanName": "Animelover",
+        "clanIconID": "ClanIcon27",
+        "clanRole": "Member",
+        "avatarID": "Avatar6",
+        "totalTournamentsCount": 0,
+        "highestTournamentRank": 0,
+        "countryCode": "TH",
+        "lastInfoUpdatedTimestamp": "0001-01-01T00:00:00.0000000",
+        "equipment": {
+          "Aura": "Aura_Star",
+          "Hat": "Hat_BatRed",
+          "Slash": "Slash_Lava",
+          "Suit": "Suit_Farmer",
+          "Weapon": "Weapon_Holy"
+        }
+      },
+      "824xe3": {
+        "playerID": "824xe3",
+        "playerName": "Zizou",
+        "highestPetID": "Pet14",
+        "currentStage": 0,
+        "stageCount": 134,
+        "score": 134,
+        "totalQuestCount": 3,
+        "weeklyQuestCount": 1,
+        "rank": 11,
+        "artifactCount": 2,
+        "clanName": "Animelover",
+        "clanIconID": "ClanIcon27",
+        "clanRole": "Member",
+        "avatarID": "Avatar5",
+        "totalTournamentsCount": 1,
+        "highestTournamentRank": 0,
+        "countryCode": "UX",
+        "lastInfoUpdatedTimestamp": "0001-01-01T00:00:00.0000000",
+        "equipment": {
+          "Aura": "Aura_Ice",
+          "Hat": "HatDefault",
+          "Slash": "Slash_Darkness",
+          "Suit": "Suit_ArmorPurple",
+          "Weapon": "Weapon_Buster"
+        }
+      },
+      "24qqwy": {
+        "playerID": "24qqwy",
+        "playerName": "Lenore Kahn",
+        "highestPetID": "Pet16",
+        "currentStage": 0,
+        "stageCount": 132,
+        "score": 132,
+        "totalQuestCount": 14,
+        "weeklyQuestCount": 0,
+        "rank": 12,
+        "artifactCount": 3,
+        "clanName": "Animelover",
+        "clanIconID": "ClanIcon27",
+        "clanRole": "Member",
+        "avatarID": "Avatar1",
+        "totalTournamentsCount": 1,
+        "highestTournamentRank": 0,
+        "countryCode": "US",
+        "lastInfoUpdatedTimestamp": "0001-01-01T00:00:00.0000000",
+        "equipment": {
+          "Aura": "Aura_Bugs",
+          "Hat": "Hat_Robot",
+          "Slash": "Slash_FireGray",
+          "Suit": "SuitDefault",
+          "Weapon": "Weapon_Skull"
+        }
+      },
+      "rrwkng": {
+        "playerID": "rrwkng",
+        "playerName": "(\\u25cf\\u2014\\u25cf)",
+        "highestPetID": "Pet14",
+        "currentStage": 0,
+        "stageCount": 130,
+        "score": 130,
+        "totalQuestCount": 3,
+        "weeklyQuestCount": 3,
+        "rank": 13,
+        "artifactCount": 3,
+        "clanName": "Animelover",
+        "clanIconID": "ClanIcon27",
+        "clanRole": "Member",
+        "avatarID": "Avatar1",
+        "totalTournamentsCount": 0,
+        "highestTournamentRank": 0,
+        "countryCode": "CN",
+        "lastInfoUpdatedTimestamp": "0001-01-01T00:00:00.0000000",
+        "equipment": {
+          "Aura": "Aura_Embers",
+          "Hat": "Hat_HelmHorned",
+          "Slash": "SlashDefault",
+          "Suit": "SuitDefault",
+          "Weapon": "Weapon_PitchFork"
+        }
+      },
+      "x4y2rn": {
+        "playerID": "x4y2rn",
+        "playerName": "^_^",
+        "highestPetID": "Pet1",
+        "currentStage": 0,
+        "stageCount": 110,
+        "score": 110,
+        "totalQuestCount": 11,
+        "weeklyQuestCount": 0,
+        "rank": 14,
+        "artifactCount": 2,
+        "clanName": "Animelover",
+        "clanIconID": "ClanIcon27",
+        "clanRole": "Member",
+        "avatarID": "Avatar1",
+        "totalTournamentsCount": 1,
+        "highestTournamentRank": 0,
+        "countryCode": "TH",
+        "lastInfoUpdatedTimestamp": "0001-01-01T00:00:00.0000000",
+        "equipment": {
+          "Aura": "Aura_Lightning",
+          "Hat": "HatDefault",
+          "Slash": "Slash_EmbersBlue",
+          "Suit": "Suit_ArmorIce",
+          "Weapon": "WeaponDefault"
+        }
+      },
+      "wd4b5p": {
+        "playerID": "wd4b5p",
+        "playerName": "sword master",
+        "highestPetID": "Pet5",
+        "currentStage": 0,
+        "stageCount": 104,
+        "score": 104,
+        "totalQuestCount": 26,
+        "weeklyQuestCount": 0,
+        "rank": 15,
+        "artifactCount": 2,
+        "clanName": "Animelover",
+        "clanIconID": "ClanIcon27",
+        "clanRole": "Member",
+        "avatarID": "Avatar5",
+        "totalTournamentsCount": 1,
+        "highestTournamentRank": 0,
+        "countryCode": "UX",
+        "lastInfoUpdatedTimestamp": "0001-01-01T00:00:00.0000000",
+        "equipment": {
+          "Aura": "Aura_Dizzy",
+          "Hat": "HatDefault",
+          "Slash": "SlashDefault",
+          "Suit": "Suit_KungFu",
+          "Weapon": "Weapon_WoodAxe"
+        }
+      },
+      "rbbq3r": {
+        "playerID": "rbbq3r",
+        "playerName": "Ultimazero",
+        "highestPetID": "Pet5",
+        "currentStage": 0,
+        "stageCount": 101,
+        "score": 101,
+        "totalQuestCount": 13,
+        "weeklyQuestCount": 0,
+        "rank": 16,
+        "artifactCount": 1,
+        "clanName": "Animelover",
+        "clanIconID": "ClanIcon27",
+        "clanRole": "Member",
+        "avatarID": "Avatar5",
+        "totalTournamentsCount": 0,
+        "highestTournamentRank": 0,
+        "countryCode": "US",
+        "lastInfoUpdatedTimestamp": "0001-01-01T00:00:00.0000000",
+        "equipment": {
+          "Aura": "Aura_Star",
+          "Hat": "HatDefault",
+          "Slash": "SlashDefault",
+          "Suit": "Suit_ArmorIce",
+          "Weapon": "Weapon_Halberd"
+        }
+      },
+      "593mee": {
+        "playerID": "593mee",
+        "playerName": "Sorry Notsorry",
+        "highestPetID": "Pet4",
+        "currentStage": 0,
+        "stageCount": 100,
+        "score": 100,
+        "totalQuestCount": 8,
+        "weeklyQuestCount": 0,
+        "rank": 17,
+        "artifactCount": 1,
+        "clanName": "Animelover",
+        "clanIconID": "ClanIcon27",
+        "clanRole": "Member",
+        "avatarID": "Avatar5",
+        "totalTournamentsCount": 0,
+        "highestTournamentRank": 0,
+        "countryCode": "US",
+        "lastInfoUpdatedTimestamp": "0001-01-01T00:00:00.0000000",
+        "equipment": {
+          "Aura": "Aura_Dizzy",
+          "Hat": "Hat_Robot",
+          "Slash": "Slash_Lava",
+          "Suit": "SuitDefault",
+          "Weapon": "Weapon_Ninja"
+        }
+      },
+      "ybxdwg": {
+        "playerID": "ybxdwg",
+        "playerName": "Master",
+        "highestPetID": "Pet1",
+        "currentStage": 0,
+        "stageCount": 0,
+        "score": 0,
+        "totalQuestCount": 6,
+        "weeklyQuestCount": 0,
+        "rank": 18,
+        "artifactCount": 0,
+        "clanName": "Animelover",
+        "clanIconID": "ClanIcon27",
+        "clanRole": "Member",
+        "avatarID": "Avatar1",
+        "totalTournamentsCount": 0,
+        "highestTournamentRank": 0,
+        "countryCode": "UX",
+        "lastInfoUpdatedTimestamp": "0001-01-01T00:00:00.0000000",
+        "equipment": {
+          "Aura": "AuraDefault",
+          "Hat": "Hat_HelmHorned",
+          "Slash": "SlashDefault",
+          "Suit": "SuitDefault",
+          "Weapon": "WeaponDefault"
+        }
+      },
+      "ybrpmy": {
+        "playerID": "ybrpmy",
+        "playerName": "J3r3myn",
+        "highestPetID": "Pet7",
+        "currentStage": 0,
+        "stageCount": 0,
+        "score": 0,
+        "totalQuestCount": 1,
+        "weeklyQuestCount": 0,
+        "rank": 18,
+        "artifactCount": 0,
+        "clanName": "Animelover",
+        "clanIconID": "ClanIcon27",
+        "clanRole": "Member",
+        "avatarID": "Avatar1",
+        "totalTournamentsCount": 0,
+        "highestTournamentRank": 0,
+        "countryCode": "US",
+        "lastInfoUpdatedTimestamp": "0001-01-01T00:00:00.0000000",
+        "equipment": {
+          "Aura": "AuraDefault",
+          "Hat": "HatDefault",
+          "Slash": "SlashDefault",
+          "Suit": "SuitDefault",
+          "Weapon": "WeaponDefault"
+        }
+      },
+      "wd2m2g": {
+        "playerID": "wd2m2g",
+        "playerName": "Yuri Kanata Zur",
+        "highestPetID": "Pet12",
+        "currentStage": 0,
+        "stageCount": 0,
+        "score": 0,
+        "totalQuestCount": 2,
+        "weeklyQuestCount": 2,
+        "rank": 18,
+        "artifactCount": 0,
+        "clanName": "Animelover",
+        "clanIconID": "ClanIcon27",
+        "clanRole": "Member",
+        "avatarID": "Avatar4",
+        "totalTournamentsCount": 0,
+        "highestTournamentRank": 0,
+        "countryCode": "SG",
+        "lastInfoUpdatedTimestamp": "0001-01-01T00:00:00.0000000",
+        "equipment": {
+          "Aura": "AuraDefault",
+          "Hat": "HatDefault",
+          "Slash": "SlashDefault",
+          "Suit": "SuitDefault",
+          "Weapon": "WeaponDefault"
+        }
+      },
+      "rbp3mn": {
+        "playerID": "rbp3mn",
+        "playerName": "Bao",
+        "highestPetID": "Pet6",
+        "currentStage": 0,
+        "stageCount": 0,
+        "score": 0,
+        "totalQuestCount": 1,
+        "weeklyQuestCount": 1,
+        "rank": 18,
+        "artifactCount": 0,
+        "clanName": "Animelover",
+        "clanIconID": "ClanIcon27",
+        "clanRole": "Member",
+        "avatarID": "Avatar2",
+        "totalTournamentsCount": 0,
+        "highestTournamentRank": 0,
+        "countryCode": "MY",
+        "lastInfoUpdatedTimestamp": "0001-01-01T00:00:00.0000000",
+        "equipment": {
+          "Aura": "AuraDefault",
+          "Hat": "HatDefault",
+          "Slash": "SlashDefault",
+          "Suit": "SuitDefault",
+          "Weapon": "WeaponDefault"
+        }
+      },
+      "rb745q": {
+        "playerID": "rb745q",
+        "playerName": "Sword bianca",
+        "highestPetID": "Pet9",
+        "currentStage": 0,
+        "stageCount": 0,
+        "score": 0,
+        "totalQuestCount": 4,
+        "weeklyQuestCount": 0,
+        "rank": 18,
+        "artifactCount": 0,
+        "clanName": "Animelover",
+        "clanIconID": "ClanIcon27",
+        "clanRole": "Member",
+        "avatarID": "Avatar1",
+        "totalTournamentsCount": 0,
+        "highestTournamentRank": 0,
+        "countryCode": "UX",
+        "lastInfoUpdatedTimestamp": "0001-01-01T00:00:00.0000000",
+        "equipment": {
+          "Aura": "Aura_Embers",
+          "Hat": "HatDefault",
+          "Slash": "SlashDefault",
+          "Suit": "SuitDefault",
+          "Weapon": "WeaponDefault"
+        }
+      },
+      "qryk9g": {
+        "playerID": "qryk9g",
+        "playerName": "Syr",
+        "highestPetID": "Pet1",
+        "currentStage": 0,
+        "stageCount": 0,
+        "score": 0,
+        "totalQuestCount": 1,
+        "weeklyQuestCount": 1,
+        "rank": 18,
+        "artifactCount": 0,
+        "clanName": "Animelover",
+        "clanIconID": "ClanIcon27",
+        "clanRole": "Member",
+        "avatarID": "Avatar3",
+        "totalTournamentsCount": 0,
+        "highestTournamentRank": 0,
+        "countryCode": "UX",
+        "lastInfoUpdatedTimestamp": "0001-01-01T00:00:00.0000000",
+        "equipment": {
+          "Aura": "AuraDefault",
+          "Hat": "HatDefault",
+          "Slash": "SlashDefault",
+          "Suit": "SuitDefault",
+          "Weapon": "Weapon_Club"
+        }
+      },
+      "qrb8x4": {
+        "playerID": "qrb8x4",
+        "playerName": "Savanorolla",
+        "highestPetID": "Pet9",
+        "currentStage": 0,
+        "stageCount": 0,
+        "score": 0,
+        "totalQuestCount": 5,
+        "weeklyQuestCount": 0,
+        "rank": 18,
+        "artifactCount": 0,
+        "clanName": "Animelover",
+        "clanIconID": "ClanIcon27",
+        "clanRole": "Member",
+        "avatarID": "Avatar4",
+        "totalTournamentsCount": 0,
+        "highestTournamentRank": 0,
+        "countryCode": "RU",
+        "lastInfoUpdatedTimestamp": "0001-01-01T00:00:00.0000000",
+        "equipment": {
+          "Aura": "AuraDefault",
+          "Hat": "Hat_BatGrey",
+          "Slash": "SlashDefault",
+          "Suit": "SuitDefault",
+          "Weapon": "WeaponDefault"
+        }
+      },
+      "qe2x77": {
+        "playerID": "qe2x77",
+        "playerName": "Skuxii",
+        "highestPetID": "Pet5",
+        "currentStage": 0,
+        "stageCount": 0,
+        "score": 0,
+        "totalQuestCount": 6,
+        "weeklyQuestCount": 0,
+        "rank": 18,
+        "artifactCount": 0,
+        "clanName": "Animelover",
+        "clanIconID": "ClanIcon27",
+        "clanRole": "Member",
+        "avatarID": "Avatar4",
+        "totalTournamentsCount": 0,
+        "highestTournamentRank": 0,
+        "countryCode": "AU",
+        "lastInfoUpdatedTimestamp": "0001-01-01T00:00:00.0000000",
+        "equipment": {
+          "Aura": "AuraDefault",
+          "Hat": "Hat_Robot",
+          "Slash": "SlashDefault",
+          "Suit": "Suit_ArmorIce",
+          "Weapon": "Weapon_BattleAxe"
+        }
+      },
+      "pg847k": {
+        "playerID": "pg847k",
+        "playerName": "On99",
+        "highestPetID": "Pet1",
+        "currentStage": 0,
+        "stageCount": 0,
+        "score": 0,
+        "totalQuestCount": 4,
+        "weeklyQuestCount": 0,
+        "rank": 18,
+        "artifactCount": 0,
+        "clanName": "Animelover",
+        "clanIconID": "ClanIcon27",
+        "clanRole": "Member",
+        "avatarID": "Avatar5",
+        "totalTournamentsCount": 0,
+        "highestTournamentRank": 0,
+        "countryCode": "HK",
+        "lastInfoUpdatedTimestamp": "0001-01-01T00:00:00.0000000",
+        "equipment": {
+          "Aura": "AuraDefault",
+          "Hat": "HatDefault",
+          "Slash": "Slash_Stars",
+          "Suit": "Suit_ArmorGreen",
+          "Weapon": "Weapon_WoodAxe"
+        }
+      },
+      "nnw8p3": {
+        "playerID": "nnw8p3",
+        "playerName": "NuuuNNN",
+        "highestPetID": "Pet13",
+        "currentStage": 0,
+        "stageCount": 0,
+        "score": 0,
+        "totalQuestCount": 3,
+        "weeklyQuestCount": 1,
+        "rank": 18,
+        "artifactCount": 0,
+        "clanName": "Animelover",
+        "clanIconID": "ClanIcon27",
+        "clanRole": "Member",
+        "avatarID": "Avatar1",
+        "totalTournamentsCount": 0,
+        "highestTournamentRank": 0,
+        "countryCode": "PT",
+        "lastInfoUpdatedTimestamp": "0001-01-01T00:00:00.0000000",
+        "equipment": {
+          "Aura": "Aura_Sparks",
+          "Hat": "HatDefault",
+          "Slash": "Slash_Darkness",
+          "Suit": "Suit_Farmer",
+          "Weapon": "Weapon_Bat"
+        }
+      },
+      "ngy424": {
+        "playerID": "ngy424",
+        "playerName": "Jarrok",
+        "highestPetID": "Pet6",
+        "currentStage": 0,
+        "stageCount": 0,
+        "score": 0,
+        "totalQuestCount": 8,
+        "weeklyQuestCount": 0,
+        "rank": 18,
+        "artifactCount": 0,
+        "clanName": "Animelover",
+        "clanIconID": "ClanIcon27",
+        "clanRole": "Member",
+        "avatarID": "Avatar4",
+        "totalTournamentsCount": 0,
+        "highestTournamentRank": 0,
+        "countryCode": "US",
+        "lastInfoUpdatedTimestamp": "0001-01-01T00:00:00.0000000",
+        "equipment": {
+          "Aura": "AuraDefault",
+          "Hat": "Hat_Music",
+          "Slash": "SlashDefault",
+          "Suit": "Suit_Farmer",
+          "Weapon": "WeaponDefault"
+        }
+      },
+      "ng6r44": {
+        "playerID": "ng6r44",
+        "playerName": "AWSM_Katb0m",
+        "highestPetID": "Pet6",
+        "currentStage": 0,
+        "stageCount": 0,
+        "score": 0,
+        "totalQuestCount": 10,
+        "weeklyQuestCount": 3,
+        "rank": 18,
+        "artifactCount": 0,
+        "clanName": "Animelover",
+        "clanIconID": "ClanIcon27",
+        "clanRole": "Member",
+        "avatarID": "Avatar4",
+        "totalTournamentsCount": 0,
+        "highestTournamentRank": 0,
+        "countryCode": "GB",
+        "lastInfoUpdatedTimestamp": "0001-01-01T00:00:00.0000000",
+        "equipment": {
+          "Aura": "AuraDefault",
+          "Hat": "Hat_Wizard",
+          "Slash": "SlashDefault",
+          "Suit": "Suit_Casual",
+          "Weapon": "Weapon_Katana"
+        }
+      },
+      "mqpk55": {
+        "playerID": "mqpk55",
+        "playerName": "Sword Master",
+        "highestPetID": "Pet2",
+        "currentStage": 0,
+        "stageCount": 0,
+        "score": 0,
+        "totalQuestCount": 0,
+        "weeklyQuestCount": 0,
+        "rank": 18,
+        "artifactCount": 0,
+        "clanName": "Animelover",
+        "clanIconID": "ClanIcon27",
+        "clanRole": "Member",
+        "avatarID": "Avatar1",
+        "totalTournamentsCount": 0,
+        "highestTournamentRank": 0,
+        "countryCode": "MX",
+        "lastInfoUpdatedTimestamp": "0001-01-01T00:00:00.0000000",
+        "equipment": {
+          "Aura": "AuraDefault",
+          "Hat": "HatDefault",
+          "Slash": "SlashDefault",
+          "Suit": "SuitDefault",
+          "Weapon": "WeaponDefault"
+        }
+      },
+      "mqb3rm": {
+        "playerID": "mqb3rm",
+        "playerName": "Sunfire",
+        "highestPetID": "Pet9",
+        "currentStage": 0,
+        "stageCount": 0,
+        "score": 0,
+        "totalQuestCount": 13,
+        "weeklyQuestCount": 0,
+        "rank": 18,
+        "artifactCount": 0,
+        "clanName": "Animelover",
+        "clanIconID": "ClanIcon27",
+        "clanRole": "Member",
+        "avatarID": "Avatar5",
+        "totalTournamentsCount": 0,
+        "highestTournamentRank": 0,
+        "countryCode": "US",
+        "lastInfoUpdatedTimestamp": "0001-01-01T00:00:00.0000000",
+        "equipment": {
+          "Aura": "AuraDefault",
+          "Hat": "HatDefault",
+          "Slash": "Slash_Paint",
+          "Suit": "SuitDefault",
+          "Weapon": "Weapon_WoodAxe"
+        }
+      },
+      "m372be": {
+        "playerID": "m372be",
+        "playerName": "SlasherAK",
+        "highestPetID": "Pet3",
+        "currentStage": 0,
+        "stageCount": 0,
+        "score": 0,
+        "totalQuestCount": 3,
+        "weeklyQuestCount": 3,
+        "rank": 18,
+        "artifactCount": 0,
+        "clanName": "Animelover",
+        "clanIconID": "ClanIcon27",
+        "clanRole": "Member",
+        "avatarID": "Avatar4",
+        "totalTournamentsCount": 0,
+        "highestTournamentRank": 0,
+        "countryCode": "US",
+        "lastInfoUpdatedTimestamp": "0001-01-01T00:00:00.0000000",
+        "equipment": {
+          "Aura": "AuraDefault",
+          "Hat": "HatDefault",
+          "Slash": "Slash_StarsBlue",
+          "Suit": "SuitDefault",
+          "Weapon": "WeaponDefault"
+        }
+      },
+      "k5wnpd": {
+        "playerID": "k5wnpd",
+        "playerName": "Trill Yakob",
+        "highestPetID": "Pet4",
+        "currentStage": 0,
+        "stageCount": 0,
+        "score": 0,
+        "totalQuestCount": 0,
+        "weeklyQuestCount": 0,
+        "rank": 18,
+        "artifactCount": 0,
+        "clanName": "Animelover",
+        "clanIconID": "ClanIcon27",
+        "clanRole": "Member",
+        "avatarID": "Avatar1",
+        "totalTournamentsCount": 0,
+        "highestTournamentRank": 0,
+        "countryCode": "US",
+        "lastInfoUpdatedTimestamp": "0001-01-01T00:00:00.0000000",
+        "equipment": {
+          "Aura": "AuraDefault",
+          "Hat": "HatDefault",
+          "Slash": "SlashDefault",
+          "Suit": "Suit_ArmorIce",
+          "Weapon": "WeaponDefault"
+        }
+      },
+      "k5ep3k": {
+        "playerID": "k5ep3k",
+        "playerName": "Karvill",
+        "highestPetID": "Pet1",
+        "currentStage": 0,
+        "stageCount": 0,
+        "score": 0,
+        "totalQuestCount": 2,
+        "weeklyQuestCount": 0,
+        "rank": 18,
+        "artifactCount": 0,
+        "clanName": "Animelover",
+        "clanIconID": "ClanIcon27",
+        "clanRole": "Member",
+        "avatarID": "Avatar4",
+        "totalTournamentsCount": 0,
+        "highestTournamentRank": 0,
+        "countryCode": "BR",
+        "lastInfoUpdatedTimestamp": "0001-01-01T00:00:00.0000000",
+        "equipment": {
+          "Aura": "AuraDefault",
+          "Hat": "HatDefault",
+          "Slash": "SlashDefault",
+          "Suit": "SuitDefault",
+          "Weapon": "WeaponDefault"
+        }
+      },
+      "b65278": {
+        "playerID": "b65278",
+        "playerName": "TheDukeUSN",
+        "highestPetID": "Pet2",
+        "currentStage": 0,
+        "stageCount": 0,
+        "score": 0,
+        "totalQuestCount": 6,
+        "weeklyQuestCount": 0,
+        "rank": 18,
+        "artifactCount": 0,
+        "clanName": "Animelover",
+        "clanIconID": "ClanIcon27",
+        "clanRole": "Member",
+        "avatarID": "Avatar1",
+        "totalTournamentsCount": 0,
+        "highestTournamentRank": 0,
+        "countryCode": "US",
+        "lastInfoUpdatedTimestamp": "0001-01-01T00:00:00.0000000",
+        "equipment": {
+          "Aura": "AuraDefault",
+          "Hat": "HatDefault",
+          "Slash": "Slash_FireOrange",
+          "Suit": "SuitDefault",
+          "Weapon": "WeaponDefault"
+        }
+      },
+      "b54b99": {
+        "playerID": "b54b99",
+        "playerName": "Waksuna22",
+        "highestPetID": "Pet9",
+        "currentStage": 0,
+        "stageCount": 0,
+        "score": 0,
+        "totalQuestCount": 6,
+        "weeklyQuestCount": 2,
+        "rank": 18,
+        "artifactCount": 0,
+        "clanName": "Animelover",
+        "clanIconID": "ClanIcon27",
+        "clanRole": "Member",
+        "avatarID": "Avatar4",
+        "totalTournamentsCount": 0,
+        "highestTournamentRank": 0,
+        "countryCode": "ID",
+        "lastInfoUpdatedTimestamp": "0001-01-01T00:00:00.0000000",
+        "equipment": {
+          "Aura": "Aura_Dizzy",
+          "Hat": "Hat_KickAss",
+          "Slash": "SlashDefault",
+          "Suit": "SuitDefault",
+          "Weapon": "Weapon_Spear"
+        }
+      },
+      "9wng9d": {
+        "playerID": "9wng9d",
+        "playerName": "Huy",
+        "highestPetID": "Pet4",
+        "currentStage": 0,
+        "stageCount": 0,
+        "score": 0,
+        "totalQuestCount": 1,
+        "weeklyQuestCount": 1,
+        "rank": 18,
+        "artifactCount": 0,
+        "clanName": "Animelover",
+        "clanIconID": "ClanIcon27",
+        "clanRole": "Member",
+        "avatarID": "Avatar1",
+        "totalTournamentsCount": 0,
+        "highestTournamentRank": 0,
+        "countryCode": "UX",
+        "lastInfoUpdatedTimestamp": "0001-01-01T00:00:00.0000000",
+        "equipment": {
+          "Aura": "AuraDefault",
+          "Hat": "HatDefault",
+          "Slash": "SlashDefault",
+          "Suit": "SuitDefault",
+          "Weapon": "WeaponDefault"
+        }
+      },
+      "9rdy62": {
+        "playerID": "9rdy62",
+        "playerName": "Slader",
+        "highestPetID": "Pet6",
+        "currentStage": 0,
+        "stageCount": 0,
+        "score": 0,
+        "totalQuestCount": 1,
+        "weeklyQuestCount": 0,
+        "rank": 18,
+        "artifactCount": 0,
+        "clanName": "Animelover",
+        "clanIconID": "ClanIcon27",
+        "clanRole": "Member",
+        "avatarID": "Avatar4",
+        "totalTournamentsCount": 0,
+        "highestTournamentRank": 0,
+        "countryCode": "US",
+        "lastInfoUpdatedTimestamp": "0001-01-01T00:00:00.0000000",
+        "equipment": {
+          "Aura": "AuraDefault",
+          "Hat": "Hat_Cap",
+          "Slash": "Slash_Embers",
+          "Suit": "SuitDefault",
+          "Weapon": "Weapon_Buster"
+        }
+      },
+      "93gqqb": {
+        "playerID": "93gqqb",
+        "playerName": "Joshua",
+        "highestPetID": "Pet13",
+        "currentStage": 0,
+        "stageCount": 0,
+        "score": 0,
+        "totalQuestCount": 3,
+        "weeklyQuestCount": 0,
+        "rank": 18,
+        "artifactCount": 0,
+        "clanName": "Animelover",
+        "clanIconID": "ClanIcon27",
+        "clanRole": "Member",
+        "avatarID": "Avatar1",
+        "totalTournamentsCount": 0,
+        "highestTournamentRank": 0,
+        "countryCode": "US",
+        "lastInfoUpdatedTimestamp": "0001-01-01T00:00:00.0000000",
+        "equipment": {
+          "Aura": "AuraDefault",
+          "Hat": "HatDefault",
+          "Slash": "Slash_Water",
+          "Suit": "SuitDefault",
+          "Weapon": "Weapon_Sythe"
+        }
+      },
+      "92y5m8": {
+        "playerID": "92y5m8",
+        "playerName": "Jacen",
+        "highestPetID": "Pet9",
+        "currentStage": 0,
+        "stageCount": 0,
+        "score": 0,
+        "totalQuestCount": 5,
+        "weeklyQuestCount": 5,
+        "rank": 18,
+        "artifactCount": 0,
+        "clanName": "Animelover",
+        "clanIconID": "ClanIcon27",
+        "clanRole": "Member",
+        "avatarID": "Avatar4",
+        "totalTournamentsCount": 0,
+        "highestTournamentRank": 0,
+        "countryCode": "AU",
+        "lastInfoUpdatedTimestamp": "0001-01-01T00:00:00.0000000",
+        "equipment": {
+          "Aura": "Aura_Bugs",
+          "Hat": "HatDefault",
+          "Slash": "SlashDefault",
+          "Suit": "SuitDefault",
+          "Weapon": "WeaponDefault"
+        }
+      },
+      "8xq278": {
+        "playerID": "8xq278",
+        "playerName": "Waffles",
+        "highestPetID": "Pet1",
+        "currentStage": 0,
+        "stageCount": 0,
+        "score": 0,
+        "totalQuestCount": 12,
+        "weeklyQuestCount": 9,
+        "rank": 18,
+        "artifactCount": 0,
+        "clanName": "Animelover",
+        "clanIconID": "ClanIcon27",
+        "clanRole": "Member",
+        "avatarID": "Avatar4",
+        "totalTournamentsCount": 0,
+        "highestTournamentRank": 0,
+        "countryCode": "US",
+        "lastInfoUpdatedTimestamp": "0001-01-01T00:00:00.0000000",
+        "equipment": {
+          "Aura": "Aura_Lightning",
+          "Hat": "HatDefault",
+          "Slash": "Slash_Embers",
+          "Suit": "Suit_Casual",
+          "Weapon": "WeaponDefault"
+        }
+      },
+      "7qmnrg": {
+        "playerID": "7qmnrg",
+        "playerName": "the legend 27",
+        "highestPetID": "Pet1",
+        "currentStage": 0,
+        "stageCount": 0,
+        "score": 0,
+        "totalQuestCount": 5,
+        "weeklyQuestCount": 5,
+        "rank": 18,
+        "artifactCount": 0,
+        "clanName": "Animelover",
+        "clanIconID": "ClanIcon27",
+        "clanRole": "Member",
+        "avatarID": "Avatar1",
+        "totalTournamentsCount": 0,
+        "highestTournamentRank": 0,
+        "countryCode": "US",
+        "lastInfoUpdatedTimestamp": "0001-01-01T00:00:00.0000000",
+        "equipment": {
+          "Aura": "AuraDefault",
+          "Hat": "HatDefault",
+          "Slash": "SlashDefault",
+          "Suit": "SuitDefault",
+          "Weapon": "WeaponDefault"
+        }
+      },
+      "7pkpdm": {
+        "playerID": "7pkpdm",
+        "playerName": "Sword Master",
+        "highestPetID": "Pet1",
+        "currentStage": 0,
+        "stageCount": 0,
+        "score": 0,
+        "totalQuestCount": 0,
+        "weeklyQuestCount": 0,
+        "rank": 18,
+        "artifactCount": 0,
+        "clanName": "Animelover",
+        "clanIconID": "ClanIcon27",
+        "clanRole": "Member",
+        "avatarID": "Avatar4",
+        "totalTournamentsCount": 0,
+        "highestTournamentRank": 0,
+        "countryCode": "UX",
+        "lastInfoUpdatedTimestamp": "0001-01-01T00:00:00.0000000",
+        "equipment": {
+          "Aura": "AuraDefault",
+          "Hat": "HatDefault",
+          "Slash": "SlashDefault",
+          "Suit": "SuitDefault",
+          "Weapon": "WeaponDefault"
+        }
+      },
+      "7pbddn": {
+        "playerID": "7pbddn",
+        "playerName": "CrossX88",
+        "highestPetID": "Pet1",
+        "currentStage": 0,
+        "stageCount": 0,
+        "score": 0,
+        "totalQuestCount": 0,
+        "weeklyQuestCount": 0,
+        "rank": 18,
+        "artifactCount": 0,
+        "clanName": "Animelover",
+        "clanIconID": "ClanIcon27",
+        "clanRole": "Member",
+        "avatarID": "Avatar4",
+        "totalTournamentsCount": 0,
+        "highestTournamentRank": 0,
+        "countryCode": "UX",
+        "lastInfoUpdatedTimestamp": "0001-01-01T00:00:00.0000000",
+        "equipment": {
+          "Aura": "AuraDefault",
+          "Hat": "HatDefault",
+          "Slash": "SlashDefault",
+          "Suit": "SuitDefault",
+          "Weapon": "WeaponDefault"
+        }
+      },
+      "7p7qy5": {
+        "playerID": "7p7qy5",
+        "playerName": "Sword Master",
+        "highestPetID": "Pet1",
+        "currentStage": 0,
+        "stageCount": 0,
+        "score": 0,
+        "totalQuestCount": 0,
+        "weeklyQuestCount": 0,
+        "rank": 18,
+        "artifactCount": 0,
+        "clanName": "Animelover",
+        "clanIconID": "ClanIcon27",
+        "clanRole": "Member",
+        "avatarID": "Avatar4",
+        "totalTournamentsCount": 0,
+        "highestTournamentRank": 0,
+        "countryCode": "US",
+        "lastInfoUpdatedTimestamp": "0001-01-01T00:00:00.0000000",
+        "equipment": {
+          "Aura": "AuraDefault",
+          "Hat": "HatDefault",
+          "Slash": "SlashDefault",
+          "Suit": "SuitDefault",
+          "Weapon": "WeaponDefault"
+        }
+      },
+      "6gkx49": {
+        "playerID": "6gkx49",
+        "playerName": "BigD",
+        "highestPetID": "Pet2",
+        "currentStage": 0,
+        "stageCount": 0,
+        "score": 0,
+        "totalQuestCount": 1,
+        "weeklyQuestCount": 0,
+        "rank": 18,
+        "artifactCount": 0,
+        "clanName": "Animelover",
+        "clanIconID": "ClanIcon27",
+        "clanRole": "Member",
+        "avatarID": "Avatar4",
+        "totalTournamentsCount": 0,
+        "highestTournamentRank": 0,
+        "countryCode": "US",
+        "lastInfoUpdatedTimestamp": "0001-01-01T00:00:00.0000000",
+        "equipment": {
+          "Aura": "Aura_Bugs",
+          "Hat": "Hat_HelmWhite",
+          "Slash": "SlashDefault",
+          "Suit": "SuitDefault",
+          "Weapon": "WeaponDefault"
+        }
+      },
+      "6g45qk": {
+        "playerID": "6g45qk",
+        "playerName": "Sword Master",
+        "highestPetID": "Pet1",
+        "currentStage": 0,
+        "stageCount": 0,
+        "score": 0,
+        "totalQuestCount": 0,
+        "weeklyQuestCount": 0,
+        "rank": 18,
+        "artifactCount": 0,
+        "clanName": "Animelover",
+        "clanIconID": "ClanIcon27",
+        "clanRole": "Member",
+        "avatarID": "Avatar3",
+        "totalTournamentsCount": 0,
+        "highestTournamentRank": 0,
+        "countryCode": "UX",
+        "lastInfoUpdatedTimestamp": "0001-01-01T00:00:00.0000000",
+        "equipment": {
+          "Aura": "AuraDefault",
+          "Hat": "HatDefault",
+          "Slash": "SlashDefault",
+          "Suit": "SuitDefault",
+          "Weapon": "WeaponDefault"
+        }
+      },
+      "4qqrwy": {
+        "playerID": "4qqrwy",
+        "playerName": "\\u0421\\u0432\\u0435\\u0447\\u0438\\u043d\\u0430",
+        "highestPetID": "Pet1",
+        "currentStage": 0,
+        "stageCount": 0,
+        "score": 0,
+        "totalQuestCount": 5,
+        "weeklyQuestCount": 5,
+        "rank": 18,
+        "artifactCount": 0,
+        "clanName": "Animelover",
+        "clanIconID": "ClanIcon27",
+        "clanRole": "Member",
+        "avatarID": "Avatar4",
+        "totalTournamentsCount": 0,
+        "highestTournamentRank": 0,
+        "countryCode": "RU",
+        "lastInfoUpdatedTimestamp": "0001-01-01T00:00:00.0000000",
+        "equipment": {
+          "Aura": "Aura_Bugs",
+          "Hat": "Hat_HelmWhite",
+          "Slash": "Slash_Leaves",
+          "Suit": "SuitDefault",
+          "Weapon": "WeaponDefault"
+        }
+      },
+      "4g5bmn": {
+        "playerID": "4g5bmn",
+        "playerName": "Dark Rogue",
+        "highestPetID": "Pet6",
+        "currentStage": 0,
+        "stageCount": 0,
+        "score": 0,
+        "totalQuestCount": 9,
+        "weeklyQuestCount": 0,
+        "rank": 18,
+        "artifactCount": 0,
+        "clanName": "Animelover",
+        "clanIconID": "ClanIcon27",
+        "clanRole": "Member",
+        "avatarID": "Avatar1",
+        "totalTournamentsCount": 0,
+        "highestTournamentRank": 0,
+        "countryCode": "US",
+        "lastInfoUpdatedTimestamp": "0001-01-01T00:00:00.0000000",
+        "equipment": {
+          "Aura": "Aura_Wind",
+          "Hat": "HatDefault",
+          "Slash": "SlashDefault",
+          "Suit": "SuitDefault",
+          "Weapon": "Weapon_Laser"
+        }
+      },
+      "248w8g": {
+        "playerID": "248w8g",
+        "playerName": "Jaywolf",
+        "highestPetID": "Pet8",
+        "currentStage": 0,
+        "stageCount": 0,
+        "score": 0,
+        "totalQuestCount": 1,
+        "weeklyQuestCount": 0,
+        "rank": 18,
+        "artifactCount": 0,
+        "clanName": "Animelover",
+        "clanIconID": "ClanIcon27",
+        "clanRole": "Member",
+        "avatarID": "Avatar4",
+        "totalTournamentsCount": 0,
+        "highestTournamentRank": 0,
+        "countryCode": "US",
+        "lastInfoUpdatedTimestamp": "0001-01-01T00:00:00.0000000",
+        "equipment": {
+          "Aura": "AuraDefault",
+          "Hat": "HatDefault",
+          "Slash": "Slash_Embers",
+          "Suit": "SuitDefault",
+          "Weapon": "Weapon_Katana"
+        }
+      },
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[ClanMember, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+    },
+    "clanMessages": {
+      "$content": [
+        {
+          "clanMessageType": "Join",
+          "message": "Sword Master",
+          "memberPlayerId": "4556pg",
+          "memberName": "Sword Master",
+          "timeStamp": "2017-01-10 04:01:16",
+          "isMe": true,
+          "perkID": "ClanMakeItRain",
+          "perkDuration": 0,
+          "role": "Member",
+          "avatarID": "Avatar6",
+          "id": 410
+        },
+        {
+          "clanMessageType": "Join",
+          "message": "\\u0421\\u0432\\u0435\\u0447\\u0438\\u043d\\u0430",
+          "memberPlayerId": "4qqrwy",
+          "memberName": "\\u0421\\u0432\\u0435\\u0447\\u0438\\u043d\\u0430",
+          "timeStamp": "2017-01-10 06:46:10",
+          "isMe": false,
+          "perkID": "ClanMakeItRain",
+          "perkDuration": 0,
+          "role": "Member",
+          "avatarID": "Avatar1",
+          "id": 411
+        },
+        {
+          "clanMessageType": "Message",
+          "message": "should I get more money or get more dmg",
+          "memberPlayerId": "9wdpx9",
+          "memberName": "MrM7",
+          "timeStamp": "2017-01-10 08:05:22",
+          "isMe": false,
+          "perkID": "ClanMakeItRain",
+          "perkDuration": 0,
+          "role": "Member",
+          "avatarID": "Avatar7",
+          "id": 412
+        },
+        {
+          "clanMessageType": "Message",
+          "message": "MrM7 are you referring to pets?",
+          "memberPlayerId": "7p2gd4",
+          "memberName": "Mysterious",
+          "timeStamp": "2017-01-10 09:06:30",
+          "isMe": false,
+          "perkID": "ClanMakeItRain",
+          "perkDuration": 0,
+          "role": "Member",
+          "avatarID": "Avatar3",
+          "id": 413
+        },
+        {
+          "clanMessageType": "Message",
+          "message": "hero",
+          "memberPlayerId": "9wdpx9",
+          "memberName": "MrM7",
+          "timeStamp": "2017-01-10 11:09:24",
+          "isMe": false,
+          "perkID": "ClanMakeItRain",
+          "perkDuration": 0,
+          "role": "Member",
+          "avatarID": "Avatar7",
+          "id": 414
+        },
+        {
+          "clanMessageType": "Message",
+          "message": "i prefer dmg on heroes",
+          "memberPlayerId": "7p2gd4",
+          "memberName": "Mysterious",
+          "timeStamp": "2017-01-10 11:14:46",
+          "isMe": false,
+          "perkID": "ClanMakeItRain",
+          "perkDuration": 0,
+          "role": "Member",
+          "avatarID": "Avatar3",
+          "id": 415
+        },
+        {
+          "clanMessageType": "Message",
+          "message": "I mean... My et gives me X8 tap damage XD I'm enjoying it early game... Becomes useless late",
+          "memberPlayerId": "8xkg48",
+          "memberName": "Taimu",
+          "timeStamp": "2017-01-11 05:38:55",
+          "isMe": false,
+          "perkID": "ClanMakeItRain",
+          "perkDuration": 0,
+          "role": "Member",
+          "avatarID": "Avatar6",
+          "id": 416
+        },
+        {
+          "clanMessageType": "Message",
+          "message": "why",
+          "memberPlayerId": "9wdpx9",
+          "memberName": "MrM7",
+          "timeStamp": "2017-01-12 10:14:50",
+          "isMe": false,
+          "perkID": "ClanMakeItRain",
+          "perkDuration": 0,
+          "role": "Member",
+          "avatarID": "Avatar8",
+          "id": 417
+        },
+        {
+          "clanMessageType": "Message",
+          "message": "don't we all choose a time and do the guild quest",
+          "memberPlayerId": "9wdpx9",
+          "memberName": "MrM7",
+          "timeStamp": "2017-01-12 10:15:21",
+          "isMe": false,
+          "perkID": "ClanMakeItRain",
+          "perkDuration": 0,
+          "role": "Member",
+          "avatarID": "Avatar8",
+          "id": 418
+        },
+        {
+          "clanMessageType": "Message",
+          "message": "I've noticed that a lot of people here are inactive... I have been here since, well I can on",
+          "memberPlayerId": "8xkg48",
+          "memberName": "Taimu",
+          "timeStamp": "2017-01-13 04:28:48",
+          "isMe": false,
+          "perkID": "ClanMakeItRain",
+          "perkDuration": 0,
+          "role": "Member",
+          "avatarID": "Avatar6",
+          "id": 419
+        },
+        {
+          "clanMessageType": "Message",
+          "message": "Only guess is day one, but it's gotten to a all time low, nobody touches the battles anymore and I'm considering leaving this clan",
+          "memberPlayerId": "8xkg48",
+          "memberName": "Taimu",
+          "timeStamp": "2017-01-13 04:29:29",
+          "isMe": false,
+          "perkID": "ClanMakeItRain",
+          "perkDuration": 0,
+          "role": "Member",
+          "avatarID": "Avatar6",
+          "id": 420
+        },
+        {
+          "clanMessageType": "Message",
+          "message": "I'd like to ask momonga to Kiki so",
+          "memberPlayerId": "8xkg48",
+          "memberName": "Taimu",
+          "timeStamp": "2017-01-13 04:30:38",
+          "isMe": false,
+          "perkID": "ClanMakeItRain",
+          "perkDuration": 0,
+          "role": "Member",
+          "avatarID": "Avatar6",
+          "id": 421
+        },
+        {
+          "clanMessageType": "Message",
+          "message": "Kick* some of the inactives it would help a lot... But I don't even see him online, (sorry I can't help but to break this into pieces, my iPads spellcheck kicks me off my screen every once and awile XD)",
+          "memberPlayerId": "8xkg48",
+          "memberName": "Taimu",
+          "timeStamp": "2017-01-13 04:32:16",
+          "isMe": false,
+          "perkID": "ClanMakeItRain",
+          "perkDuration": 0,
+          "role": "Member",
+          "avatarID": "Avatar6",
+          "id": 422
+        },
+        {
+          "clanMessageType": "Leave",
+          "message": "MrM7",
+          "memberPlayerId": "9wdpx9",
+          "memberName": "MrM7",
+          "timeStamp": "2017-01-14 02:28:46",
+          "isMe": false,
+          "perkID": "ClanMakeItRain",
+          "perkDuration": 0,
+          "role": "Member",
+          "avatarID": "Avatar8",
+          "id": 423
+        },
+        {
+          "clanMessageType": "Join",
+          "message": "SlasherAK",
+          "memberPlayerId": "m372be",
+          "memberName": "SlasherAK",
+          "timeStamp": "2017-01-14 04:51:07",
+          "isMe": false,
+          "perkID": "ClanMakeItRain",
+          "perkDuration": 0,
+          "role": "Member",
+          "avatarID": "Avatar4",
+          "id": 424
+        }
+      ],
+      "$type": "System.Collections.Generic.List`1[[ClanMessage, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+    },
+    "lastMessageId": {
+      "$content": 0,
+      "$type": "System.Int64"
+    },
+    "numberOfNewMessages": {
+      "$content": 2,
+      "$type": "System.Int32"
+    },
+    "lastViewMessageBoard": {
+      "$content": "0001-01-01T00:00:00.0000000",
+      "$type": "System.DateTime"
+    },
+    "shouldShowKickedPanel": {
+      "$content": false,
+      "$type": "System.Boolean"
+    },
+    "$type": "SaveDict`1[[ISavableGlobal, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+  },
+  "ClanShipController": {
+    "cratesOnScreen": {
+      "$content": [],
+      "$type": "System.Collections.Generic.List`1[[Crate, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+    },
+    "$type": "SaveDict`1[[ISavableGlobal, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+  },
+  "DailyRewardModel": {
+    "dailyRewardDayNumberLastCollected": {
+      "$content": 7,
+      "$type": "System.Int32"
+    },
+    "dailyRewardDateLastCollected": {
+      "$content": "2017-01-13T04:38:54.0000000",
+      "$type": "System.DateTime"
+    },
+    "$type": "SaveDict`1[[ISavableGlobal, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+  },
+  "EquipmentModel": {
+    "allEquipment": {
+      "0": {
+        "equipmentID": {
+          "$content": "Hat_Cap",
+          "$type": "EquipmentID"
+        },
+        "lookID": {
+          "$content": "Hat_Cap",
+          "$type": "EquipmentID"
+        },
+        "uniqueID": {
+          "$content": 0,
+          "$type": "System.Int32"
+        },
+        "equipped": {
+          "$content": true,
+          "$type": "System.Boolean"
+        },
+        "locked": {
+          "$content": false,
+          "$type": "System.Boolean"
+        },
+        "hidden": {
+          "$content": false,
+          "$type": "System.Boolean"
+        },
+        "level": {
+          "$content": 1,
+          "$type": "System.Int32"
+        },
+        "isNew": {
+          "$content": false,
+          "$type": "System.Boolean"
+        }
+      },
+      "1": {
+        "equipmentID": {
+          "$content": "Slash_Stars",
+          "$type": "EquipmentID"
+        },
+        "lookID": {
+          "$content": "Slash_Stars",
+          "$type": "EquipmentID"
+        },
+        "uniqueID": {
+          "$content": 1,
+          "$type": "System.Int32"
+        },
+        "equipped": {
+          "$content": false,
+          "$type": "System.Boolean"
+        },
+        "locked": {
+          "$content": false,
+          "$type": "System.Boolean"
+        },
+        "hidden": {
+          "$content": false,
+          "$type": "System.Boolean"
+        },
+        "level": {
+          "$content": 3,
+          "$type": "System.Int32"
+        },
+        "isNew": {
+          "$content": false,
+          "$type": "System.Boolean"
+        }
+      },
+      "2": {
+        "equipmentID": {
+          "$content": "Weapon_Basic",
+          "$type": "EquipmentID"
+        },
+        "lookID": {
+          "$content": "Weapon_Basic",
+          "$type": "EquipmentID"
+        },
+        "uniqueID": {
+          "$content": 2,
+          "$type": "System.Int32"
+        },
+        "equipped": {
+          "$content": false,
+          "$type": "System.Boolean"
+        },
+        "locked": {
+          "$content": false,
+          "$type": "System.Boolean"
+        },
+        "hidden": {
+          "$content": false,
+          "$type": "System.Boolean"
+        },
+        "level": {
+          "$content": 3,
+          "$type": "System.Int32"
+        },
+        "isNew": {
+          "$content": false,
+          "$type": "System.Boolean"
+        }
+      },
+      "3": {
+        "equipmentID": {
+          "$content": "Suit_ArmorHighTec",
+          "$type": "EquipmentID"
+        },
+        "lookID": {
+          "$content": "Suit_ArmorHighTec",
+          "$type": "EquipmentID"
+        },
+        "uniqueID": {
+          "$content": 3,
+          "$type": "System.Int32"
+        },
+        "equipped": {
+          "$content": true,
+          "$type": "System.Boolean"
+        },
+        "locked": {
+          "$content": false,
+          "$type": "System.Boolean"
+        },
+        "hidden": {
+          "$content": false,
+          "$type": "System.Boolean"
+        },
+        "level": {
+          "$content": 4,
+          "$type": "System.Int32"
+        },
+        "isNew": {
+          "$content": false,
+          "$type": "System.Boolean"
+        }
+      },
+      "4": {
+        "equipmentID": {
+          "$content": "Weapon_Club",
+          "$type": "EquipmentID"
+        },
+        "lookID": {
+          "$content": "Weapon_Club",
+          "$type": "EquipmentID"
+        },
+        "uniqueID": {
+          "$content": 4,
+          "$type": "System.Int32"
+        },
+        "equipped": {
+          "$content": true,
+          "$type": "System.Boolean"
+        },
+        "locked": {
+          "$content": false,
+          "$type": "System.Boolean"
+        },
+        "hidden": {
+          "$content": false,
+          "$type": "System.Boolean"
+        },
+        "level": {
+          "$content": 5,
+          "$type": "System.Int32"
+        },
+        "isNew": {
+          "$content": false,
+          "$type": "System.Boolean"
+        }
+      },
+      "5": {
+        "equipmentID": {
+          "$content": "Weapon_Spear",
+          "$type": "EquipmentID"
+        },
+        "lookID": {
+          "$content": "Weapon_Spear",
+          "$type": "EquipmentID"
+        },
+        "uniqueID": {
+          "$content": 5,
+          "$type": "System.Int32"
+        },
+        "equipped": {
+          "$content": false,
+          "$type": "System.Boolean"
+        },
+        "locked": {
+          "$content": false,
+          "$type": "System.Boolean"
+        },
+        "hidden": {
+          "$content": false,
+          "$type": "System.Boolean"
+        },
+        "level": {
+          "$content": 5,
+          "$type": "System.Int32"
+        },
+        "isNew": {
+          "$content": false,
+          "$type": "System.Boolean"
+        }
+      },
+      "6": {
+        "equipmentID": {
+          "$content": "Weapon_Glaive",
+          "$type": "EquipmentID"
+        },
+        "lookID": {
+          "$content": "Weapon_Glaive",
+          "$type": "EquipmentID"
+        },
+        "uniqueID": {
+          "$content": 6,
+          "$type": "System.Int32"
+        },
+        "equipped": {
+          "$content": false,
+          "$type": "System.Boolean"
+        },
+        "locked": {
+          "$content": false,
+          "$type": "System.Boolean"
+        },
+        "hidden": {
+          "$content": false,
+          "$type": "System.Boolean"
+        },
+        "level": {
+          "$content": 6,
+          "$type": "System.Int32"
+        },
+        "isNew": {
+          "$content": false,
+          "$type": "System.Boolean"
+        }
+      },
+      "7": {
+        "equipmentID": {
+          "$content": "Weapon_Spear",
+          "$type": "EquipmentID"
+        },
+        "lookID": {
+          "$content": "Weapon_Spear",
+          "$type": "EquipmentID"
+        },
+        "uniqueID": {
+          "$content": 7,
+          "$type": "System.Int32"
+        },
+        "equipped": {
+          "$content": false,
+          "$type": "System.Boolean"
+        },
+        "locked": {
+          "$content": false,
+          "$type": "System.Boolean"
+        },
+        "hidden": {
+          "$content": false,
+          "$type": "System.Boolean"
+        },
+        "level": {
+          "$content": 6,
+          "$type": "System.Int32"
+        },
+        "isNew": {
+          "$content": false,
+          "$type": "System.Boolean"
+        }
+      },
+      "8": {
+        "equipmentID": {
+          "$content": "Slash_Water",
+          "$type": "EquipmentID"
+        },
+        "lookID": {
+          "$content": "Slash_Water",
+          "$type": "EquipmentID"
+        },
+        "uniqueID": {
+          "$content": 8,
+          "$type": "System.Int32"
+        },
+        "equipped": {
+          "$content": true,
+          "$type": "System.Boolean"
+        },
+        "locked": {
+          "$content": false,
+          "$type": "System.Boolean"
+        },
+        "hidden": {
+          "$content": false,
+          "$type": "System.Boolean"
+        },
+        "level": {
+          "$content": 8,
+          "$type": "System.Int32"
+        },
+        "isNew": {
+          "$content": false,
+          "$type": "System.Boolean"
+        }
+      },
+      "9": {
+        "equipmentID": {
+          "$content": "Weapon_Buster",
+          "$type": "EquipmentID"
+        },
+        "lookID": {
+          "$content": "Weapon_Buster",
+          "$type": "EquipmentID"
+        },
+        "uniqueID": {
+          "$content": 9,
+          "$type": "System.Int32"
+        },
+        "equipped": {
+          "$content": false,
+          "$type": "System.Boolean"
+        },
+        "locked": {
+          "$content": false,
+          "$type": "System.Boolean"
+        },
+        "hidden": {
+          "$content": false,
+          "$type": "System.Boolean"
+        },
+        "level": {
+          "$content": 8,
+          "$type": "System.Int32"
+        },
+        "isNew": {
+          "$content": false,
+          "$type": "System.Boolean"
+        }
+      },
+      "10": {
+        "equipmentID": {
+          "$content": "Aura_Bugs",
+          "$type": "EquipmentID"
+        },
+        "lookID": {
+          "$content": "Aura_Bugs",
+          "$type": "EquipmentID"
+        },
+        "uniqueID": {
+          "$content": 10,
+          "$type": "System.Int32"
+        },
+        "equipped": {
+          "$content": true,
+          "$type": "System.Boolean"
+        },
+        "locked": {
+          "$content": false,
+          "$type": "System.Boolean"
+        },
+        "hidden": {
+          "$content": false,
+          "$type": "System.Boolean"
+        },
+        "level": {
+          "$content": 7,
+          "$type": "System.Int32"
+        },
+        "isNew": {
+          "$content": false,
+          "$type": "System.Boolean"
+        }
+      },
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Collections.Generic.Dictionary`2[[System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"
+    },
+    "allLookIDs": {
+      "$content": [
+        "Hat_Cap",
+        "Slash_Stars",
+        "Weapon_Basic",
+        "Suit_ArmorHighTec",
+        "Weapon_Club",
+        "Weapon_Spear",
+        "Weapon_Glaive",
+        "Slash_Water",
+        "Weapon_Buster",
+        "Aura_Bugs"
+      ],
+      "$type": "System.Collections.Generic.HashSet`1[[EquipmentID, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+    },
+    "lastMaxStage": {
+      "$content": 156,
+      "$type": "System.Int32"
+    },
+    "extraEquipmentDrops": {
+      "$content": [],
+      "$type": "System.Collections.Generic.List`1[[System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"
+    },
+    "$type": "SaveDict`1[[ISavableGlobal, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+  },
+  "FairyController": {
+    "fatFairyLastCollectedTime": {
+      "$content": "2017-01-10T03:58:13.4339500Z",
+      "$type": "System.DateTime"
+    },
+    "optionFairyVideoOn": {
+      "$content": true,
+      "$type": "System.Boolean"
+    },
+    "firstSessionLastCollectedTime": {
+      "$content": "2017-01-13T17:56:47.5525280Z",
+      "$type": "System.DateTime"
+    },
+    "$type": "SaveDict`1[[ISavableGlobal, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+  },
+  "GHTime": {
+    "serverOffset": {
+      "$content": "-00:00:00.0552820",
+      "$type": "System.TimeSpan"
+    },
+    "totalActiveGameTime": {
+      "$content": 55298.3704206206,
+      "$type": "System.Double"
+    },
+    "maxDateTime": {
+      "$content": "2017-01-15T12:32:44.0783130Z",
+      "$type": "System.DateTime"
+    },
+    "lastInactiveTime": {
+      "$content": "2017-01-15T12:32:44.0783130Z",
+      "$type": "System.DateTime"
+    },
+    "lastSyncedTime": {
+      "$content": "2017-01-15T12:32:43.7152910Z",
+      "$type": "System.DateTime"
+    },
+    "gameInstallDate": {
+      "$content": "2016-12-14T08:25:58.0958170Z",
+      "$type": "System.DateTime"
+    },
+    "$type": "SaveDict`1[[ISavableGlobal, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+  },
+  "GameModel": {
+    "ignoredMessageIds": {
+      "$content": [],
+      "$type": "System.Collections.Generic.List`1[[System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"
+    },
+    "savedAppVersion": {
+      "$content": "1.1.3",
+      "$type": "System.String"
+    },
+    "production": {
+      "$content": true,
+      "$type": "System.Boolean"
+    },
+    "$type": "SaveDict`1[[ISavableGlobal, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+  },
+  "HelperWeaponController": {
+    "weaponsToCollect": {
+      "$content": [],
+      "$type": "System.Collections.Generic.List`1[[HelperID, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+    },
+    "newlyCollectedWeapons": {
+      "$content": [],
+      "$type": "System.Collections.Generic.List`1[[HelperID, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+    },
+    "$type": "SaveDict`1[[ISavableGlobal, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+  },
+  "HelperModel": {
+    "allHelperLevels": {
+      "H18": 340,
+      "H01": 301,
+      "H21": 290,
+      "H02": 270,
+      "H06": 250,
+      "H24": 221,
+      "H08": 191,
+      "H26": 164,
+      "H09": 130,
+      "H04": 121,
+      "H20": 111,
+      "H10": 101,
+      "H03": 71,
+      "H25": 40,
+      "H27": 31,
+      "H22": 11,
+      "H05": 1,
+      "$type": "System.Collections.Generic.Dictionary`2[[HelperID, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"
+    },
+    "isUnreadStory": {
+      "$content": true,
+      "$type": "System.Boolean"
+    },
+    "helperStoryUnlocked": {
+      "$content": [
+        "H18",
+        "H01",
+        "H21",
+        "H02",
+        "H06",
+        "H24",
+        "H08",
+        "H26",
+        "H09",
+        "H20",
+        "H04",
+        "H10",
+        "H03",
+        "H25",
+        "H27",
+        "H22",
+        "H05",
+        "H13",
+        "H19",
+        "H29"
+      ],
+      "$type": "System.Collections.Generic.HashSet`1[[HelperID, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+    },
+    "allUnlockedHelperSkills": {
+      "$content": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        11,
+        12,
+        13,
+        14,
+        15,
+        21,
+        22,
+        23,
+        24,
+        25,
+        31,
+        32,
+        33,
+        34,
+        35,
+        41,
+        42,
+        43,
+        44,
+        45,
+        51,
+        52,
+        53,
+        54,
+        55,
+        61,
+        62,
+        63,
+        64,
+        71,
+        72,
+        73,
+        74,
+        81,
+        82,
+        83,
+        84,
+        91,
+        92,
+        93,
+        94,
+        101,
+        102,
+        103,
+        104,
+        111,
+        112,
+        113,
+        114,
+        121,
+        122,
+        123,
+        131,
+        132,
+        141
+      ],
+      "$type": "System.Collections.Generic.HashSet`1[[System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"
+    },
+    "allHelperWeaponLevels": {
+      "H08": 1,
+      "$type": "System.Collections.Generic.Dictionary`2[[HelperID, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"
+    },
+    "$type": "SaveDict`1[[ISavableGlobal, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+  },
+  "InactiveGameplayModel": {
+    "uncollectedInactiveGold": {
+      "$content": 2142100902527370000,
+      "$type": "System.Double"
+    },
+    "$type": "SaveDict`1[[ISavableGlobal, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+  },
+  "LocalizationModel": {
+    "currentLanguage": {
+      "$content": "English",
+      "$type": "Language"
+    },
+    "$type": "SaveDict`1[[ISavableGlobal, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+  },
+  "OptionsController": {
+    "optionVolume": {
+      "$content": 0,
+      "$type": "System.Int32"
+    },
+    "optionMusic": {
+      "$content": 0,
+      "$type": "System.Int32"
+    },
+    "optionNotification": {
+      "$content": true,
+      "$type": "System.Boolean"
+    },
+    "upgradeAmount": {
+      "$content": 10,
+      "$type": "System.Int32"
+    },
+    "roundedUpgrade": {
+      "$content": false,
+      "$type": "System.Boolean"
+    },
+    "showScientific": {
+      "$content": false,
+      "$type": "System.Boolean"
+    },
+    "$type": "SaveDict`1[[ISavableGlobal, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+  },
+  "PerkModel": {
+    "doomCreditsSpent": {
+      "$content": 0,
+      "$type": "System.Int32"
+    },
+    "doomCreditsRecieved": {
+      "$content": 0,
+      "$type": "System.Int32"
+    },
+    "makeItRainCreditsSpent": {
+      "$content": 0,
+      "$type": "System.Int32"
+    },
+    "makeItRainCreditsRecieved": {
+      "$content": 2,
+      "$type": "System.Int32"
+    },
+    "clanMakeItRainCreditsSpent": {
+      "$content": 0,
+      "$type": "System.Int32"
+    },
+    "clanMakeItRainCreditsRecieved": {
+      "$content": 0,
+      "$type": "System.Int32"
+    },
+    "powerOfSwipeCreditsSpent": {
+      "$content": 0,
+      "$type": "System.Int32"
+    },
+    "powerOfSwipeCreditsRecieved": {
+      "$content": 0,
+      "$type": "System.Int32"
+    },
+    "doubleDamageCreditsSpent": {
+      "$content": 0,
+      "$type": "System.Int32"
+    },
+    "doubleDamageCreditsRecieved": {
+      "$content": 3,
+      "$type": "System.Int32"
+    },
+    "$type": "SaveDict`1[[ISavableGlobal, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+  },
+  "PetModel": {
+    "currentPet": {
+      "$content": "Pet14",
+      "$type": "PetID"
+    },
+    "allPetLevels": {
+      "Pet1": 3,
+      "Pet2": 7,
+      "Pet3": 3,
+      "Pet4": 9,
+      "Pet5": 7,
+      "Pet6": 8,
+      "Pet7": 5,
+      "Pet8": 1,
+      "Pet9": 6,
+      "Pet10": 6,
+      "Pet11": 6,
+      "Pet12": 8,
+      "Pet13": 6,
+      "Pet14": 7,
+      "Pet15": 9,
+      "Pet16": 4,
+      "$type": "System.Collections.Generic.Dictionary`2[[PetID, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"
+    },
+    "allPetNew": {
+      "Pet1": false,
+      "Pet2": false,
+      "Pet3": false,
+      "Pet4": false,
+      "Pet5": false,
+      "Pet6": false,
+      "Pet7": false,
+      "Pet8": false,
+      "Pet9": false,
+      "Pet10": false,
+      "Pet11": false,
+      "Pet12": false,
+      "Pet13": false,
+      "Pet14": false,
+      "Pet15": false,
+      "Pet16": false,
+      "$type": "System.Collections.Generic.Dictionary`2[[PetID, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"
+    },
+    "didFirstEggCollection": {
+      "$content": true,
+      "$type": "System.Boolean"
+    },
+    "firstEggCollectionTime": {
+      "$content": "2016-12-14T08:31:58.2157170Z",
+      "$type": "System.DateTime"
+    },
+    "lastEggCollectionTime": {
+      "$content": "2017-01-14T01:07:54.0000000",
+      "$type": "System.DateTime"
+    },
+    "NumberOfEggs": {
+      "$content": 2,
+      "$type": "System.Int32"
+    },
+    "eggTimerStarted": {
+      "$content": true,
+      "$type": "System.Boolean"
+    },
+    "$type": "SaveDict`1[[ISavableGlobal, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+  },
+  "PlayerModel": {
+    "gold": {
+      "$content": 11214017163650,
+      "$type": "System.Double"
+    },
+    "manaPotionSpent": {
+      "$content": 0,
+      "$type": "System.Int32"
+    },
+    "manaPotionRecievedLocal": {
+      "$content": 0,
+      "$type": "System.Int32"
+    },
+    "manaPotionRecievedServer": {
+      "$content": 0,
+      "$type": "System.Int32"
+    },
+    "relicsSpentServer": {
+      "$content": 21,
+      "$type": "System.Double"
+    },
+    "relicsReceivedServer": {
+      "$content": 105,
+      "$type": "System.Double"
+    },
+    "level": {
+      "$content": 560,
+      "$type": "System.Int32"
+    },
+    "baseDamage": {
+      "$content": 560.000000000001,
+      "$type": "System.Double"
+    },
+    "currentMana": {
+      "$content": 193,
+      "$type": "System.Double"
+    },
+    "manaPotionTimer": {
+      "$content": 0,
+      "$type": "System.Single"
+    },
+    "dsLo": {
+      "$content": 0,
+      "$type": "System.Int32"
+    },
+    "dsSe": {
+      "$content": 225,
+      "$type": "System.Int32"
+    },
+    "drLo": {
+      "$content": 0,
+      "$type": "System.Int32"
+    },
+    "drAc": {
+      "$content": 300,
+      "$type": "System.Int32"
+    },
+    "drFa": {
+      "$content": 0,
+      "$type": "System.Int32"
+    },
+    "drSe": {
+      "$content": 120,
+      "$type": "System.Int32"
+    },
+    "skillPointsReceivedServer": {
+      "$content": 4,
+      "$type": "System.Int32"
+    },
+    "skillPointsSpentServer": {
+      "$content": 3,
+      "$type": "System.Int32"
+    },
+    "lastSkillPointsCollectedStage": {
+      "$content": 55,
+      "$type": "System.Int32"
+    },
+    "lastViewedDialogue": {
+      "$content": "2016-12-14T13:55:58.2691900+05:30",
+      "$type": "System.DateTime"
+    },
+    "dpsLostToPrestige": {
+      "$content": 16047983279900400000,
+      "$type": "System.Double"
+    },
+    "goldLostToPrestige": {
+      "$content": 9.1881320549312e+22,
+      "$type": "System.Double"
+    },
+    "goldSincePrestige": {
+      "$content": 244750542925522000,
+      "$type": "System.Double"
+    },
+    "hasRatedGame": {
+      "$content": false,
+      "$type": "System.Boolean"
+    },
+    "reportedPlayers": {
+      "$content": [],
+      "$type": "System.Collections.Generic.List`1[[System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"
+    },
+    "holidayBundleEmail": {
+      "$content": "",
+      "$type": "System.String"
+    },
+    "$type": "SaveDict`1[[ISavableGlobal, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+  },
+  "PrestigeModel": {
+    "relicDrop": {
+      "$content": 0,
+      "$type": "System.Double"
+    },
+    "maxPrestigeStageCount": {
+      "$content": 174,
+      "$type": "System.Int32"
+    },
+    "lastPrestigeTime": {
+      "$content": "2017-01-12T14:38:12.2644440Z",
+      "$type": "System.DateTime"
+    },
+    "$type": "SaveDict`1[[ISavableGlobal, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+  },
+  "SkillTreeModel": {
+    "idToLevelDict": {
+      "PetQTE": 2,
+      "BossCountQTE": 0,
+      "BossDmgQTE": 0,
+      "PetGoldQTE": 0,
+      "GoblinQTE": 0,
+      "HelperDmgQTE": 0,
+      "HelperCountQTE": 0,
+      "Fairy": 0,
+      "BossTimer": 0,
+      "ClanQTE": 0,
+      "BurstSkillBoost": 0,
+      "CloneSkillBoost": 0,
+      "MPRegenBoost": 0,
+      "FireTapSkillBoost": 0,
+      "HelperDmgSkillBoost": 0,
+      "MPCapacityBoost": 0,
+      "MidasSkillBoost": 0,
+      "ManaStealSkillBoost": 0,
+      "CritSkillBoost": 0,
+      "ManaMonster": 0,
+      "MultiMonsters": 0,
+      "MeleeHelperDmg": 0,
+      "RangedHelperDmg": 0,
+      "SpellHelperDmg": 0,
+      "OfflineGold": 0,
+      "AutoAdvance": 0,
+      "GoldRateBoost": 0,
+      "PetOfflineDmg": 0,
+      "PetDmg": 0,
+      "SplashDmg": 0,
+      "LessMonsters": 0,
+      "$type": "System.Collections.Generic.Dictionary`2[[TalentID, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"
+    },
+    "$type": "SaveDict`1[[ISavableGlobal, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+  },
+  "StageLogicController": {
+    "currentStage": {
+      "$content": 105,
+      "$type": "System.Int32"
+    },
+    "autoAdvance": {
+      "$content": false,
+      "$type": "System.Boolean"
+    },
+    "enemyKillCount": {
+      "$content": 10,
+      "$type": "System.Int32"
+    },
+    "bossDefeated": {
+      "$content": false,
+      "$type": "System.Boolean"
+    },
+    "$type": "SaveDict`1[[ISavableGlobal, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+  },
+  "TournamentModel": {
+    "currentTournament": null,
+    "nextTournament": {
+      "tournamentType": "RangeHelper",
+      "tournamentID": "",
+      "progress": {
+        "currentCryptoKey": -1908683586,
+        "hiddenValue": -1908683585,
+        "fakeValue": 0,
+        "inited": true
+      },
+      "progressReported": {
+        "currentCryptoKey": -1908683586,
+        "hiddenValue": -1908683585,
+        "fakeValue": 0,
+        "inited": true
+      },
+      "startTime": "2017-01-15T14:00:00.0000000",
+      "endTime": "2017-01-16T14:00:00.0000000",
+      "cachedTournamentData": null,
+      "cachedTournamentDataTimestamp": "0001-01-01T00:00:00.0000000",
+      "tournamentBracket": {
+        "currentCryptoKey": -1908683586,
+        "hiddenValue": -1908683585,
+        "fakeValue": 0,
+        "inited": true
+      },
+      "$type": "TournamentInfo"
+    },
+    "retiredUntil": {
+      "$content": "0001-01-01T00:00:00.0000000",
+      "$type": "System.DateTime"
+    },
+    "$type": "SaveDict`1[[ISavableGlobal, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+  },
+  "TutorialModel": {
+    "PlayerTab": {
+      "data": {
+        "$type": "SaveDict`1[[ISavableGlobal, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+      },
+      "status": {
+        "$content": "Completed",
+        "$type": "TutorialStatus"
+      },
+      "$type": "SaveDict`1[[ISavableGlobal, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+    },
+    "HelperTab": {
+      "data": {
+        "$type": "SaveDict`1[[ISavableGlobal, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+      },
+      "status": {
+        "$content": "Completed",
+        "$type": "TutorialStatus"
+      },
+      "$type": "SaveDict`1[[ISavableGlobal, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+    },
+    "PetTab": {
+      "data": {
+        "$type": "SaveDict`1[[ISavableGlobal, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+      },
+      "status": {
+        "$content": "Completed",
+        "$type": "TutorialStatus"
+      },
+      "$type": "SaveDict`1[[ISavableGlobal, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+    },
+    "ActiveSkill": {
+      "data": {
+        "$type": "SaveDict`1[[ISavableGlobal, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+      },
+      "status": {
+        "$content": "Completed",
+        "$type": "TutorialStatus"
+      },
+      "$type": "SaveDict`1[[ISavableGlobal, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+    },
+    "BossBattle": {
+      "data": {
+        "$type": "SaveDict`1[[ISavableGlobal, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+      },
+      "status": {
+        "$content": "Completed",
+        "$type": "TutorialStatus"
+      },
+      "$type": "SaveDict`1[[ISavableGlobal, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+    },
+    "SkillPoint": {
+      "data": {
+        "$type": "SaveDict`1[[ISavableGlobal, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+      },
+      "status": {
+        "$content": "Completed",
+        "$type": "TutorialStatus"
+      },
+      "$type": "SaveDict`1[[ISavableGlobal, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+    },
+    "Clan": {
+      "data": {
+        "$type": "SaveDict`1[[ISavableGlobal, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+      },
+      "status": {
+        "$content": "Completed",
+        "$type": "TutorialStatus"
+      },
+      "$type": "SaveDict`1[[ISavableGlobal, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+    },
+    "Shop": {
+      "data": {
+        "$type": "SaveDict`1[[ISavableGlobal, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+      },
+      "status": {
+        "$content": "Completed",
+        "$type": "TutorialStatus"
+      },
+      "$type": "SaveDict`1[[ISavableGlobal, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+    },
+    "InactiveGold": {
+      "data": {
+        "$type": "SaveDict`1[[ISavableGlobal, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+      },
+      "status": {
+        "$content": "Completed",
+        "$type": "TutorialStatus"
+      },
+      "$type": "SaveDict`1[[ISavableGlobal, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+    },
+    "ArtifactTab": {
+      "data": {
+        "$type": "SaveDict`1[[ISavableGlobal, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+      },
+      "status": {
+        "$content": "Completed",
+        "$type": "TutorialStatus"
+      },
+      "$type": "SaveDict`1[[ISavableGlobal, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+    },
+    "Transmorph": {
+      "data": {
+        "$type": "SaveDict`1[[ISavableGlobal, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+      },
+      "status": {
+        "$content": "Incomplete",
+        "$type": "TutorialStatus"
+      },
+      "$type": "SaveDict`1[[ISavableGlobal, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+    },
+    "$type": "SaveDict`1[[ISavableGlobal, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+  }
+}
